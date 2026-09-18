@@ -1,6 +1,6 @@
 # Contributing
 
-This dataset is maintained by the Elastic Solutions Architecture team.
+This dataset is maintained by me, Elastic Search Specialist.
 
 If you find a bug in the import scripts, have a suggestion for additional
 dataset scenarios, or want to contribute a new challenge scenario, feel free
