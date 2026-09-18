@@ -159,4 +159,4 @@ MIT License — see [LICENSE](LICENSE).
 
 ---
 
-*Built by the Elastic Solutions Architecture team.*
+*Built by the Elastic Search Specialist SA.*
