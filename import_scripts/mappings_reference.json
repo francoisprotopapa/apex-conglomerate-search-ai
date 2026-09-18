@@ -1,0 +1,636 @@
+{
+  "_note": "Reference mappings \u2014 DO NOT distribute to hackathon participants. Give only if team is completely blocked. Text embedding: .jina-embeddings-v5-text-small (cluster-hosted). Multimodal embedding: jina-v5-omni-small (Jina AI API, requires JINA_API_KEY).",
+  "apex_customer_360": {
+    "mappings": {
+      "properties": {
+        "customer_id": {
+          "type": "keyword"
+        },
+        "name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "email": {
+          "type": "keyword"
+        },
+        "country": {
+          "type": "keyword"
+        },
+        "segment": {
+          "type": "keyword"
+        },
+        "products": {
+          "type": "keyword"
+        },
+        "preferred_channel": {
+          "type": "keyword"
+        },
+        "tenure_days": {
+          "type": "integer"
+        },
+        "contract_start_date": {
+          "type": "date"
+        },
+        "last_login": {
+          "type": "date"
+        },
+        "monthly_spend_eur": {
+          "type": "float"
+        },
+        "ltv_estimated_eur": {
+          "type": "float"
+        },
+        "nps_score": {
+          "type": "integer"
+        },
+        "csat_last_interaction": {
+          "type": "float"
+        },
+        "login_frequency_30d": {
+          "type": "integer"
+        },
+        "support_tickets_90d": {
+          "type": "integer"
+        },
+        "payment_delays_12m": {
+          "type": "integer"
+        },
+        "churn_risk_score": {
+          "type": "float"
+        },
+        "is_churned": {
+          "type": "boolean"
+        },
+        "churn_reason": {
+          "type": "keyword"
+        },
+        "account_manager_id": {
+          "type": "keyword"
+        },
+        "supplier_id": {
+          "type": "keyword"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_customer_interactions": {
+    "mappings": {
+      "properties": {
+        "interaction_id": {
+          "type": "keyword"
+        },
+        "customer_id": {
+          "type": "keyword"
+        },
+        "channel": {
+          "type": "keyword"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "intent": {
+          "type": "keyword"
+        },
+        "emotion_detected": {
+          "type": "keyword"
+        },
+        "sentiment_score": {
+          "type": "float"
+        },
+        "transcript_text": {
+          "type": "text"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small",
+          "_comment": "Change inference_id to your Jina endpoint if configured"
+        },
+        "word_count": {
+          "type": "integer"
+        },
+        "resolution_time_minutes": {
+          "type": "integer"
+        },
+        "issue_resolved": {
+          "type": "boolean"
+        },
+        "escalated": {
+          "type": "boolean"
+        },
+        "keywords_extracted": {
+          "type": "keyword"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_financial_transactions": {
+    "mappings": {
+      "properties": {
+        "transaction_id": {
+          "type": "keyword"
+        },
+        "customer_id": {
+          "type": "keyword"
+        },
+        "supplier_id": {
+          "type": "keyword"
+        },
+        "transaction_type": {
+          "type": "keyword"
+        },
+        "amount_eur": {
+          "type": "float"
+        },
+        "currency_original": {
+          "type": "keyword"
+        },
+        "merchant_name": {
+          "type": "keyword"
+        },
+        "merchant_category": {
+          "type": "keyword"
+        },
+        "country_code": {
+          "type": "keyword"
+        },
+        "device_id": {
+          "type": "keyword"
+        },
+        "device_type": {
+          "type": "keyword"
+        },
+        "ip_country": {
+          "type": "keyword"
+        },
+        "ip_country_mismatch": {
+          "type": "boolean"
+        },
+        "transaction_hour": {
+          "type": "integer"
+        },
+        "velocity_last_1h": {
+          "type": "integer"
+        },
+        "velocity_last_24h": {
+          "type": "integer"
+        },
+        "anomaly_score_rule_based": {
+          "type": "float"
+        },
+        "is_fraud": {
+          "type": "boolean"
+        },
+        "fraud_type": {
+          "type": "keyword"
+        },
+        "chargeback_filed": {
+          "type": "boolean"
+        },
+        "geo_location": {
+          "type": "geo_point"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_operational_telemetry": {
+    "mappings": {
+      "properties": {
+        "reading_id": {
+          "type": "keyword"
+        },
+        "asset_id": {
+          "type": "keyword"
+        },
+        "asset_type": {
+          "type": "keyword"
+        },
+        "location": {
+          "type": "keyword"
+        },
+        "age_days": {
+          "type": "integer"
+        },
+        "temperature_celsius": {
+          "type": "float"
+        },
+        "vibration_mm_s": {
+          "type": "float"
+        },
+        "current_draw_amps": {
+          "type": "float"
+        },
+        "rpm": {
+          "type": "float"
+        },
+        "pressure_bar": {
+          "type": "float"
+        },
+        "oil_viscosity_cst": {
+          "type": "float"
+        },
+        "acoustic_emission_db": {
+          "type": "float"
+        },
+        "network_packet_loss_pct": {
+          "type": "float"
+        },
+        "signal_strength_dbm": {
+          "type": "float"
+        },
+        "rul_days_true": {
+          "type": "integer"
+        },
+        "maintenance_required": {
+          "type": "boolean"
+        },
+        "is_anomaly_reading": {
+          "type": "boolean"
+        },
+        "supplier_id": {
+          "type": "keyword"
+        },
+        "fft_dominant_freq_hz": {
+          "type": "float"
+        },
+        "fft_harmonic_ratio": {
+          "type": "float"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_pharma_batches": {
+    "mappings": {
+      "properties": {
+        "batch_id": {
+          "type": "keyword"
+        },
+        "product_name": {
+          "type": "keyword"
+        },
+        "facility": {
+          "type": "keyword"
+        },
+        "qc_status": {
+          "type": "keyword"
+        },
+        "inspector_id": {
+          "type": "keyword"
+        },
+        "inspector_notes": {
+          "type": "text"
+        },
+        "is_outlier": {
+          "type": "boolean"
+        },
+        "image_reference": {
+          "type": "keyword"
+        },
+        "supplier_id": {
+          "type": "keyword"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small"
+        },
+        "chemical_parameters": {
+          "type": "object",
+          "properties": {
+            "ph_level": {
+              "type": "float"
+            },
+            "purity_pct": {
+              "type": "float"
+            },
+            "endotoxin_eu_ml": {
+              "type": "float"
+            },
+            "moisture_content_pct": {
+              "type": "float"
+            },
+            "particle_size_d50_um": {
+              "type": "float"
+            },
+            "viscosity_cp": {
+              "type": "float"
+            },
+            "active_ingredient_mg_g": {
+              "type": "float"
+            }
+          }
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_knowledge_graph": {
+    "mappings": {
+      "properties": {
+        "node_id": {
+          "type": "keyword"
+        },
+        "edge_id": {
+          "type": "keyword"
+        },
+        "node_type": {
+          "type": "keyword"
+        },
+        "edge_type": {
+          "type": "keyword"
+        },
+        "source_id": {
+          "type": "keyword"
+        },
+        "target_id": {
+          "type": "keyword"
+        },
+        "label": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "weight": {
+          "type": "float"
+        },
+        "is_suspicious": {
+          "type": "boolean"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_policy_vault": {
+    "mappings": {
+      "properties": {
+        "chunk_id": {
+          "type": "keyword"
+        },
+        "doc_id": {
+          "type": "keyword"
+        },
+        "doc_type": {
+          "type": "keyword"
+        },
+        "doc_title": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "topic": {
+          "type": "keyword"
+        },
+        "classification": {
+          "type": "keyword"
+        },
+        "chunk_index": {
+          "type": "integer"
+        },
+        "total_chunks": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small"
+        },
+        "word_count": {
+          "type": "integer"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_unstructured_vault": {
+    "mappings": {
+      "properties": {
+        "chunk_id": {
+          "type": "keyword"
+        },
+        "doc_id": {
+          "type": "keyword"
+        },
+        "doc_type": {
+          "type": "keyword"
+        },
+        "doc_title": {
+          "type": "text"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "topic": {
+          "type": "keyword"
+        },
+        "chunk_index": {
+          "type": "integer"
+        },
+        "total_chunks": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small"
+        },
+        "word_count": {
+          "type": "integer"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_technical_docs": {
+    "mappings": {
+      "properties": {
+        "chunk_id": {
+          "type": "keyword"
+        },
+        "doc_id": {
+          "type": "keyword"
+        },
+        "doc_type": {
+          "type": "keyword"
+        },
+        "doc_title": {
+          "type": "text"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "topic": {
+          "type": "keyword"
+        },
+        "asset_type": {
+          "type": "keyword"
+        },
+        "chunk_index": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small"
+        },
+        "word_count": {
+          "type": "integer"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_it_knowledge_base": {
+    "mappings": {
+      "properties": {
+        "chunk_id": {
+          "type": "keyword"
+        },
+        "doc_id": {
+          "type": "keyword"
+        },
+        "source_system": {
+          "type": "keyword"
+        },
+        "doc_type": {
+          "type": "keyword"
+        },
+        "doc_title": {
+          "type": "text"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "category": {
+          "type": "keyword"
+        },
+        "tags": {
+          "type": "keyword"
+        },
+        "chunk_index": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "semantic_text",
+          "inference_id": ".jina-embeddings-v5-text-small"
+        },
+        "word_count": {
+          "type": "integer"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_security_acls": {
+    "mappings": {
+      "properties": {
+        "acl_id": {
+          "type": "keyword"
+        },
+        "principal_type": {
+          "type": "keyword"
+        },
+        "principal_id": {
+          "type": "keyword"
+        },
+        "department": {
+          "type": "keyword"
+        },
+        "role_id": {
+          "type": "keyword"
+        },
+        "indices_allowed": {
+          "type": "keyword"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "mfa_required": {
+          "type": "boolean"
+        },
+        "_allow_access_control": {
+          "type": "keyword"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  },
+  "apex_multimodal_assets": {
+    "mappings": {
+      "properties": {
+        "asset_id": {
+          "type": "keyword"
+        },
+        "asset_type": {
+          "type": "keyword"
+        },
+        "linked_entity_id": {
+          "type": "keyword"
+        },
+        "linked_index": {
+          "type": "keyword"
+        },
+        "format": {
+          "type": "keyword"
+        },
+        "title": {
+          "type": "text"
+        },
+        "description_text": {
+          "type": "text"
+        },
+        "content_svg": {
+          "type": "text",
+          "index": false
+        },
+        "is_anomalous": {
+          "type": "boolean"
+        },
+        "embedding_text": {
+          "type": "semantic_text",
+          "inference_id": "jina-v5-omni-small",
+          "_comment": "For true multimodal: use jina-clip-v2 or jina-embeddings-v5-omni"
+        },
+        "tags": {
+          "type": "keyword"
+        },
+        "@timestamp": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}

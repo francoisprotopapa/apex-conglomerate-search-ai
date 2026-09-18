@@ -1,0 +1,109 @@
+<svg viewBox="0 0 780 620" xmlns="http://www.w3.org/2000/svg" style="background:#fff;font-family:Inter,Arial,sans-serif">
+<defs><marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#0B64DD"/></marker></defs>
+<rect x="0" y="0" width="780" height="38" fill="#0B64DD"/>
+<text x="390" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Apex Elasticsearch Production Cluster — ECK on Kubernetes (Frankfurt Datacenter)</text>
+<!-- Kubernetes boundary -->
+<rect x="10" y="50" width="760" height="390" rx="10" fill="none" stroke="#48EFCF" stroke-width="2" stroke-dasharray="8,4"/>
+<text x="18" y="68" font-size="10" fill="#48EFCF" font-weight="bold">k8s-es-prod (vSphere 8)</text>
+<!-- Master nodes -->
+<rect x="25" y="80" width="215" height="110" rx="6" fill="#F5F7FA" stroke="#101C3F" stroke-width="1.5"/>
+<text x="133" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#0B64DD">Master-eligible nodes (3x)</text>
+<text x="133" y="113" text-anchor="middle" font-size="9" fill="#555">8 vCPU · 32 GB RAM · 500 GB NVMe</text>
+<rect x="35" y="120" width="58" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="64" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">master-01</text>
+<rect x="102" y="120" width="58" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="131" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">master-02</text>
+<rect x="170" y="120" width="58" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="199" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">master-03</text>
+<text x="133" y="175" text-anchor="middle" font-size="9" fill="#888">Cluster state · Leader election · No data</text>
+<!-- Hot data nodes -->
+<rect x="255" y="80" width="265" height="165" rx="6" fill="#F5F7FA" stroke="#101C3F" stroke-width="1.5"/>
+<text x="387" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#0B64DD">Hot data nodes (6x)</text>
+<text x="387" y="112" text-anchor="middle" font-size="9" fill="#555">16 vCPU · 64 GB RAM · 4 TB NVMe · JVM heap 30 GB</text>
+<rect x="265" y="120" width="73" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="302" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">data-hot-01</text>
+<rect x="348" y="120" width="73" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="385" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">data-hot-02</text>
+<rect x="432" y="120" width="73" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="469" y="135" text-anchor="middle" font-size="9" fill="#0B64DD">data-hot-03</text>
+<rect x="265" y="152" width="73" height="22" rx="3" fill="#FFF8E1" stroke="#FEC514" stroke-width="1"/>
+<text x="302" y="167" text-anchor="middle" font-size="9" fill="#B8860B">data-hot-04 ⚠</text>
+<rect x="348" y="152" width="73" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="385" y="167" text-anchor="middle" font-size="9" fill="#0B64DD">data-hot-05</text>
+<rect x="432" y="152" width="73" height="22" rx="3" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1"/>
+<text x="469" y="167" text-anchor="middle" font-size="9" fill="#0B64DD">data-hot-06</text>
+<text x="387" y="224" text-anchor="middle" font-size="8" fill="#888">Indices 0-30d · apex_financial_transactions · apex_customer_360 · apex_customer_interactions</text>
+<!-- ML nodes -->
+<rect x="540" y="80" width="215" height="110" rx="6" fill="#F5F7FA" stroke="#101C3F" stroke-width="1.5"/>
+<text x="648" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#F04E98">ML nodes (2x)</text>
+<text x="648" y="112" text-anchor="middle" font-size="9" fill="#555">32 vCPU · 128 GB RAM · NVIDIA A100 40GB</text>
+<rect x="555" y="122" width="88" height="22" rx="3" fill="#FBEAF0" stroke="#F04E98" stroke-width="1"/>
+<text x="599" y="137" text-anchor="middle" font-size="9" fill="#F04E98">ml-01 · Jina v3</text>
+<rect x="655" y="122" width="88" height="22" rx="3" fill="#FBEAF0" stroke="#F04E98" stroke-width="1"/>
+<text x="699" y="137" text-anchor="middle" font-size="9" fill="#F04E98">ml-02 · E5-small</text>
+<text x="648" y="168" text-anchor="middle" font-size="9" fill="#888">Inference: jina-v3-multilingual · jina-clip-v2 · apex-ner-custom</text>
+<!-- Warm/Cold nodes row 2 -->
+<rect x="25" y="260" width="215" height="90" rx="6" fill="#FFF8E1" stroke="#FEC514" stroke-width="1.5"/>
+<text x="133" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#B8860B">Warm nodes (2x)</text>
+<text x="133" y="292" text-anchor="middle" font-size="9" fill="#555">8 vCPU · 32 GB RAM · 16 TB HDD</text>
+<text x="133" y="330" text-anchor="middle" font-size="9" fill="#888">Indices 30-90d · forcemerge · ILM warm phase</text>
+<rect x="255" y="260" width="215" height="90" rx="6" fill="#F0F0F0" stroke="#888" stroke-width="1.5"/>
+<text x="362" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#555">Cold nodes (2x)</text>
+<text x="362" y="292" text-anchor="middle" font-size="9" fill="#555">4 vCPU · 16 GB RAM · 32 TB object storage</text>
+<text x="362" y="330" text-anchor="middle" font-size="9" fill="#888">Indices 90d+ · searchable snapshots · no replica</text>
+<!-- Coordinating + Kibana -->
+<rect x="485" y="260" width="155" height="90" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="563" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#0F6E56">Coord nodes (2x)</text>
+<text x="563" y="292" text-anchor="middle" font-size="9" fill="#555">8 vCPU · 32 GB RAM</text>
+<text x="563" y="330" text-anchor="middle" font-size="9" fill="#888">Query routing · No data · HAProxy lb</text>
+<rect x="650" y="260" width="100" height="90" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="700" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#0F6E56">Kibana (3x)</text>
+<text x="700" y="295" text-anchor="middle" font-size="9" fill="#555">4 vCPU · 16GB</text>
+<text x="700" y="330" text-anchor="middle" font-size="9" fill="#888">HAProxy · SSO AAD</text>
+<!-- ILM arrow -->
+<line x1="133" y1="245" x2="133" y2="260" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="362" y1="245" x2="362" y2="260" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<!-- External connections -->
+<rect x="10" y="460" width="760" height="145" rx="8" fill="#F5F7FA" stroke="#ccc" stroke-width="1"/>
+<text x="390" y="476" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">External Integrations</text>
+<!-- Kafka -->
+<rect x="25" y="485" width="130" height="50" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="90" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">Apache Kafka</text>
+<text x="90" y="518" text-anchor="middle" font-size="8" fill="#555">apex.transactions.raw</text>
+<text x="90" y="530" text-anchor="middle" font-size="8" fill="#555">apex.iot.telemetry.raw</text>
+<!-- Logstash -->
+<rect x="170" y="485" width="110" height="50" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="225" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">Logstash (3x)</text>
+<text x="225" y="518" text-anchor="middle" font-size="8" fill="#555">TXN-PIPELINE-01</text>
+<text x="225" y="530" text-anchor="middle" font-size="8" fill="#555">IOT-PIPELINE-01</text>
+<!-- Vault -->
+<rect x="295" y="485" width="100" height="50" rx="5" fill="#FBEAF0" stroke="#F04E98" stroke-width="1.5"/>
+<text x="345" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#F04E98">HashiCorp Vault</text>
+<text x="345" y="518" text-anchor="middle" font-size="8" fill="#555">Secrets · PKI</text>
+<text x="345" y="530" text-anchor="middle" font-size="8" fill="#555">API key rotation</text>
+<!-- Azure AD -->
+<rect x="410" y="485" width="110" height="50" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="465" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">Azure AD</text>
+<text x="465" y="518" text-anchor="middle" font-size="8" fill="#555">SAML 2.0 SSO</text>
+<text x="465" y="530" text-anchor="middle" font-size="8" fill="#555">Role mapping nightly</text>
+<!-- DR CCR -->
+<rect x="535" y="485" width="110" height="50" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="590" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#0F6E56">DR Cluster (AMS)</text>
+<text x="590" y="518" text-anchor="middle" font-size="8" fill="#555">CCR lag &lt;30s</text>
+<text x="590" y="530" text-anchor="middle" font-size="8" fill="#555">RTO 30min · RPO 30s</text>
+<!-- MinIO -->
+<rect x="660" y="485" width="100" height="50" rx="5" fill="#F5F7FA" stroke="#888" stroke-width="1.5"/>
+<text x="710" y="504" text-anchor="middle" font-size="10" font-weight="bold" fill="#555">MinIO S3</text>
+<text x="710" y="518" text-anchor="middle" font-size="8" fill="#555">Snapshots · Audit logs</text>
+<text x="710" y="530" text-anchor="middle" font-size="8" fill="#555">Cold tier storage</text>
+<!-- Arrows up to coord -->
+<line x1="90" y1="485" x2="563" y2="350" stroke="#0B64DD" stroke-width="1" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<line x1="225" y1="485" x2="350" y2="350" stroke="#0B64DD" stroke-width="1" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<!-- Legend -->
+<rect x="10" y="550" width="760" height="40" rx="4" fill="#F5F7FA"/>
+<text x="20" y="565" font-size="9" fill="#0B64DD" font-weight="bold">Blue: Core ES nodes</text>
+<text x="145" y="565" font-size="9" fill="#F04E98" font-weight="bold">Pink: ML/GPU inference</text>
+<text x="300" y="565" font-size="9" fill="#B8860B" font-weight="bold">Yellow: Warm tier / INC-0047821 node</text>
+<text x="510" y="565" font-size="9" fill="#0F6E56" font-weight="bold">Green: External integrations</text>
+<text x="20" y="582" font-size="8" fill="#888">Total storage: ~48 TB (hot+warm+cold) · Peak queries: 4,200/sec · Peak ingest: 812 events/sec · ES version: 8.15</text>
+</svg>

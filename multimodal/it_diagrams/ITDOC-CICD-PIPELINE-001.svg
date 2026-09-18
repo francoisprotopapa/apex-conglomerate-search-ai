@@ -1,0 +1,101 @@
+<svg viewBox="0 0 780 440" xmlns="http://www.w3.org/2000/svg" style="background:#fff;font-family:Inter,Arial,sans-serif">
+<defs><marker id="a" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#0B64DD"/></marker><marker id="b" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#48EFCF"/></marker></defs>
+<rect x="0" y="0" width="780" height="36" fill="#0B64DD"/>
+<text x="390" y="23" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Apex Platform CI/CD Pipeline — GitHub Actions + ArgoCD</text>
+<!-- Stage boxes -->
+<rect x="10" y="52" width="115" height="108" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="67" y="70" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">1. Code</text>
+<text x="67" y="84" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Commit</text>
+<text x="67" y="100" text-anchor="middle" font-size="8" fill="#555">Developer PR</text>
+<text x="67" y="113" text-anchor="middle" font-size="8" fill="#555">ops-platform</text>
+<text x="67" y="126" text-anchor="middle" font-size="8" fill="#555">Branch: feature/*</text>
+<text x="67" y="142" text-anchor="middle" font-size="8" fill="#888">Trigger: PR open</text>
+<line x1="125" y1="106" x2="148" y2="106" stroke="#0B64DD" stroke-width="2" marker-end="url(#a)"/>
+<rect x="148" y="52" width="115" height="108" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="205" y="70" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">2. Lint +</text>
+<text x="205" y="84" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Validate</text>
+<text x="205" y="100" text-anchor="middle" font-size="8" fill="#555">yamllint</text>
+<text x="205" y="113" text-anchor="middle" font-size="8" fill="#555">ES mapping JSON schema</text>
+<text x="205" y="126" text-anchor="middle" font-size="8" fill="#555">Logstash --config.test</text>
+<text x="205" y="142" text-anchor="middle" font-size="8" fill="#888">Duration: ~2min</text>
+<line x1="263" y1="106" x2="286" y2="106" stroke="#0B64DD" stroke-width="2" marker-end="url(#a)"/>
+<rect x="286" y="52" width="115" height="108" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="343" y="70" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">3. Unit +</text>
+<text x="343" y="84" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Integration</text>
+<text x="343" y="100" text-anchor="middle" font-size="8" fill="#555">Logstash filter tests</text>
+<text x="343" y="113" text-anchor="middle" font-size="8" fill="#555">ES mapping tests</text>
+<text x="343" y="126" text-anchor="middle" font-size="8" fill="#555">Prometheus rule tests</text>
+<text x="343" y="142" text-anchor="middle" font-size="8" fill="#888">Duration: ~8min</text>
+<line x1="401" y1="106" x2="424" y2="106" stroke="#0B64DD" stroke-width="2" marker-end="url(#a)"/>
+<rect x="424" y="52" width="115" height="108" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="481" y="70" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">4. Security</text>
+<text x="481" y="84" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Scan</text>
+<text x="481" y="100" text-anchor="middle" font-size="8" fill="#555">Trivy image scan</text>
+<text x="481" y="113" text-anchor="middle" font-size="8" fill="#555">git-secrets detect</text>
+<text x="481" y="126" text-anchor="middle" font-size="8" fill="#555">OPA Gatekeeper policy</text>
+<text x="481" y="142" text-anchor="middle" font-size="8" fill="#888">Duration: ~4min</text>
+<line x1="539" y1="106" x2="562" y2="106" stroke="#0B64DD" stroke-width="2" marker-end="url(#a)"/>
+<rect x="562" y="52" width="115" height="108" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="2"/>
+<text x="619" y="70" text-anchor="middle" font-size="10" font-weight="bold" fill="#0F6E56">5. Staging</text>
+<text x="619" y="84" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">Deploy + Smoke</text>
+<text x="619" y="100" text-anchor="middle" font-size="8" fill="#555">k8s-es-staging</text>
+<text x="619" y="113" text-anchor="middle" font-size="8" fill="#555">10 golden queries</text>
+<text x="619" y="126" text-anchor="middle" font-size="8" fill="#555">per language (5 langs)</text>
+<text x="619" y="142" text-anchor="middle" font-size="8" fill="#888">Duration: ~12min</text>
+<line x1="677" y1="106" x2="700" y2="106" stroke="#0F6E56" stroke-width="2" marker-end="url(#b)"/>
+<rect x="700" y="52" width="70" height="108" rx="8" fill="#48EFCF" stroke="#0F6E56" stroke-width="2"/>
+<text x="735" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#0F6E56">6. PR</text>
+<text x="735" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#0F6E56">Merge</text>
+<text x="735" y="122" text-anchor="middle" font-size="8" fill="#0F6E56">2 approvals</text>
+<text x="735" y="136" text-anchor="middle" font-size="8" fill="#0F6E56">required</text>
+<!-- Failure paths -->
+<rect x="190" y="185" width="80" height="22" rx="4" fill="#FFEEEE" stroke="#CC0000" stroke-width="1"/>
+<text x="230" y="199" text-anchor="middle" font-size="8" fill="#CC0000">FAIL → Block PR</text>
+<line x1="205" y1="160" x2="205" y2="185" stroke="#CC0000" stroke-width="1" stroke-dasharray="3,2"/>
+<rect x="328" y="185" width="80" height="22" rx="4" fill="#FFEEEE" stroke="#CC0000" stroke-width="1"/>
+<text x="368" y="199" text-anchor="middle" font-size="8" fill="#CC0000">FAIL → Block PR</text>
+<line x1="343" y1="160" x2="343" y2="185" stroke="#CC0000" stroke-width="1" stroke-dasharray="3,2"/>
+<rect x="466" y="185" width="80" height="22" rx="4" fill="#FFEEEE" stroke="#CC0000" stroke-width="1"/>
+<text x="506" y="199" text-anchor="middle" font-size="8" fill="#CC0000">Critical CVE → Block</text>
+<line x1="481" y1="160" x2="481" y2="185" stroke="#CC0000" stroke-width="1" stroke-dasharray="3,2"/>
+<!-- ArgoCD CD section -->
+<rect x="10" y="230" width="760" height="88" rx="8" fill="#E8F0FE" stroke="#0B64DD" stroke-width="2"/>
+<text x="20" y="248" font-size="10" font-weight="bold" fill="#0B64DD">Continuous Deployment — ArgoCD (post-merge to main)</text>
+<rect x="30" y="258" width="130" height="48" rx="5" fill="white" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="95" y="276" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Auto-sync (safe changes)</text>
+<text x="95" y="290" text-anchor="middle" font-size="8" fill="#555">ILM policies · Kibana dashboards</text>
+<text x="95" y="302" text-anchor="middle" font-size="8" fill="#555">Logstash filter updates</text>
+<line x1="160" y1="282" x2="188" y2="282" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="188" y="258" width="130" height="48" rx="5" fill="white" stroke="#FEC514" stroke-width="1.5"/>
+<text x="253" y="276" text-anchor="middle" font-size="9" font-weight="bold" fill="#B8860B">Manual sync (risky)</text>
+<text x="253" y="290" text-anchor="middle" font-size="8" fill="#555">Node pool changes</text>
+<text x="253" y="302" text-anchor="middle" font-size="8" fill="#555">ILM policy delete phase</text>
+<line x1="318" y1="282" x2="346" y2="282" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="346" y="258" width="140" height="48" rx="5" fill="white" stroke="#F04E98" stroke-width="1.5"/>
+<text x="416" y="276" text-anchor="middle" font-size="9" font-weight="bold" fill="#F04E98">Canary Rollout (models)</text>
+<text x="416" y="290" text-anchor="middle" font-size="8" fill="#555">10% → metric check</text>
+<text x="416" y="302" text-anchor="middle" font-size="8" fill="#555">→ 50% → 100% (AFDS)</text>
+<rect x="576" y="258" width="175" height="48" rx="5" fill="#48EFCF" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="663" y="276" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">Rollback (1-click)</text>
+<text x="663" y="290" text-anchor="middle" font-size="8" fill="#0F6E56">ArgoCD → previous Git commit</text>
+<text x="663" y="302" text-anchor="middle" font-size="8" fill="#0F6E56">SLA: &lt;5 minutes</text>
+<!-- Metrics -->
+<rect x="10" y="332" width="760" height="95" rx="6" fill="#F5F7FA" stroke="#ddd"/>
+<text x="390" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Pipeline Performance Metrics (2024 average)</text>
+<rect x="30" y="360" width="160" height="55" rx="4" fill="white" stroke="#0B64DD"/>
+<text x="110" y="382" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B64DD">26min</text>
+<text x="110" y="400" text-anchor="middle" font-size="9" fill="#555">average full pipeline duration</text>
+<text x="110" y="415" text-anchor="middle" font-size="8" fill="#888">(lint to staging smoke test)</text>
+<rect x="210" y="360" width="160" height="55" rx="4" fill="white" stroke="#0B64DD"/>
+<text x="290" y="382" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B64DD">97.3%</text>
+<text x="290" y="400" text-anchor="middle" font-size="9" fill="#555">pipeline success rate (2024)</text>
+<text x="290" y="415" text-anchor="middle" font-size="8" fill="#888">347 runs, 9 failed (all reverted)</text>
+<rect x="390" y="360" width="160" height="55" rx="4" fill="white" stroke="#48EFCF"/>
+<text x="470" y="382" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B64DD">4.8min</text>
+<text x="470" y="400" text-anchor="middle" font-size="9" fill="#555">average ArgoCD rollback time</text>
+<text x="470" y="415" text-anchor="middle" font-size="8" fill="#888">SLA target: &lt;5 minutes</text>
+<rect x="570" y="360" width="180" height="55" rx="4" fill="white" stroke="#48EFCF"/>
+<text x="660" y="382" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B64DD">0</text>
+<text x="660" y="400" text-anchor="middle" font-size="9" fill="#555">production outages caused by CD</text>
+<text x="660" y="415" text-anchor="middle" font-size="8" fill="#888">GitOps rollback prevented all 9 failures</text>
+</svg>

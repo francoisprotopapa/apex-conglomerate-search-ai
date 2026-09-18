@@ -1,0 +1,728 @@
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000000"}}
+{"node_id": "CUST-000000", "node_type": "Customer", "label": "Customer-0", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000001"}}
+{"node_id": "CUST-000001", "node_type": "Customer", "label": "Customer-1", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000002"}}
+{"node_id": "CUST-000002", "node_type": "Customer", "label": "Customer-2", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000003"}}
+{"node_id": "CUST-000003", "node_type": "Customer", "label": "Customer-3", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000004"}}
+{"node_id": "CUST-000004", "node_type": "Customer", "label": "Customer-4", "properties": {"segment": "VIP", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000005"}}
+{"node_id": "CUST-000005", "node_type": "Customer", "label": "Customer-5", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000006"}}
+{"node_id": "CUST-000006", "node_type": "Customer", "label": "Customer-6", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000007"}}
+{"node_id": "CUST-000007", "node_type": "Customer", "label": "Customer-7", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000008"}}
+{"node_id": "CUST-000008", "node_type": "Customer", "label": "Customer-8", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000009"}}
+{"node_id": "CUST-000009", "node_type": "Customer", "label": "Customer-9", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000010"}}
+{"node_id": "CUST-000010", "node_type": "Customer", "label": "Customer-10", "properties": {"segment": "VIP", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000011"}}
+{"node_id": "CUST-000011", "node_type": "Customer", "label": "Customer-11", "properties": {"segment": "Enterprise", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000012"}}
+{"node_id": "CUST-000012", "node_type": "Customer", "label": "Customer-12", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000013"}}
+{"node_id": "CUST-000013", "node_type": "Customer", "label": "Customer-13", "properties": {"segment": "Enterprise", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000014"}}
+{"node_id": "CUST-000014", "node_type": "Customer", "label": "Customer-14", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000015"}}
+{"node_id": "CUST-000015", "node_type": "Customer", "label": "Customer-15", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000016"}}
+{"node_id": "CUST-000016", "node_type": "Customer", "label": "Customer-16", "properties": {"segment": "Enterprise", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000017"}}
+{"node_id": "CUST-000017", "node_type": "Customer", "label": "Customer-17", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000018"}}
+{"node_id": "CUST-000018", "node_type": "Customer", "label": "Customer-18", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000019"}}
+{"node_id": "CUST-000019", "node_type": "Customer", "label": "Customer-19", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000020"}}
+{"node_id": "CUST-000020", "node_type": "Customer", "label": "Customer-20", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000021"}}
+{"node_id": "CUST-000021", "node_type": "Customer", "label": "Customer-21", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000022"}}
+{"node_id": "CUST-000022", "node_type": "Customer", "label": "Customer-22", "properties": {"segment": "Enterprise", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000023"}}
+{"node_id": "CUST-000023", "node_type": "Customer", "label": "Customer-23", "properties": {"segment": "Enterprise", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000024"}}
+{"node_id": "CUST-000024", "node_type": "Customer", "label": "Customer-24", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000025"}}
+{"node_id": "CUST-000025", "node_type": "Customer", "label": "Customer-25", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000026"}}
+{"node_id": "CUST-000026", "node_type": "Customer", "label": "Customer-26", "properties": {"segment": "Enterprise", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000027"}}
+{"node_id": "CUST-000027", "node_type": "Customer", "label": "Customer-27", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000028"}}
+{"node_id": "CUST-000028", "node_type": "Customer", "label": "Customer-28", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000029"}}
+{"node_id": "CUST-000029", "node_type": "Customer", "label": "Customer-29", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000030"}}
+{"node_id": "CUST-000030", "node_type": "Customer", "label": "Customer-30", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000031"}}
+{"node_id": "CUST-000031", "node_type": "Customer", "label": "Customer-31", "properties": {"segment": "Enterprise", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000032"}}
+{"node_id": "CUST-000032", "node_type": "Customer", "label": "Customer-32", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000033"}}
+{"node_id": "CUST-000033", "node_type": "Customer", "label": "Customer-33", "properties": {"segment": "VIP", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000034"}}
+{"node_id": "CUST-000034", "node_type": "Customer", "label": "Customer-34", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000035"}}
+{"node_id": "CUST-000035", "node_type": "Customer", "label": "Customer-35", "properties": {"segment": "Enterprise", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000036"}}
+{"node_id": "CUST-000036", "node_type": "Customer", "label": "Customer-36", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000037"}}
+{"node_id": "CUST-000037", "node_type": "Customer", "label": "Customer-37", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000038"}}
+{"node_id": "CUST-000038", "node_type": "Customer", "label": "Customer-38", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000039"}}
+{"node_id": "CUST-000039", "node_type": "Customer", "label": "Customer-39", "properties": {"segment": "VIP", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000040"}}
+{"node_id": "CUST-000040", "node_type": "Customer", "label": "Customer-40", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000041"}}
+{"node_id": "CUST-000041", "node_type": "Customer", "label": "Customer-41", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000042"}}
+{"node_id": "CUST-000042", "node_type": "Customer", "label": "Customer-42", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000043"}}
+{"node_id": "CUST-000043", "node_type": "Customer", "label": "Customer-43", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000044"}}
+{"node_id": "CUST-000044", "node_type": "Customer", "label": "Customer-44", "properties": {"segment": "Enterprise", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000045"}}
+{"node_id": "CUST-000045", "node_type": "Customer", "label": "Customer-45", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000046"}}
+{"node_id": "CUST-000046", "node_type": "Customer", "label": "Customer-46", "properties": {"segment": "Enterprise", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000047"}}
+{"node_id": "CUST-000047", "node_type": "Customer", "label": "Customer-47", "properties": {"segment": "VIP", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000048"}}
+{"node_id": "CUST-000048", "node_type": "Customer", "label": "Customer-48", "properties": {"segment": "Enterprise", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000049"}}
+{"node_id": "CUST-000049", "node_type": "Customer", "label": "Customer-49", "properties": {"segment": "Enterprise", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000050"}}
+{"node_id": "CUST-000050", "node_type": "Customer", "label": "Customer-50", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000051"}}
+{"node_id": "CUST-000051", "node_type": "Customer", "label": "Customer-51", "properties": {"segment": "VIP", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000052"}}
+{"node_id": "CUST-000052", "node_type": "Customer", "label": "Customer-52", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000053"}}
+{"node_id": "CUST-000053", "node_type": "Customer", "label": "Customer-53", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000054"}}
+{"node_id": "CUST-000054", "node_type": "Customer", "label": "Customer-54", "properties": {"segment": "VIP", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000055"}}
+{"node_id": "CUST-000055", "node_type": "Customer", "label": "Customer-55", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000056"}}
+{"node_id": "CUST-000056", "node_type": "Customer", "label": "Customer-56", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000057"}}
+{"node_id": "CUST-000057", "node_type": "Customer", "label": "Customer-57", "properties": {"segment": "Enterprise", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000058"}}
+{"node_id": "CUST-000058", "node_type": "Customer", "label": "Customer-58", "properties": {"segment": "VIP", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000059"}}
+{"node_id": "CUST-000059", "node_type": "Customer", "label": "Customer-59", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000060"}}
+{"node_id": "CUST-000060", "node_type": "Customer", "label": "Customer-60", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000061"}}
+{"node_id": "CUST-000061", "node_type": "Customer", "label": "Customer-61", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000062"}}
+{"node_id": "CUST-000062", "node_type": "Customer", "label": "Customer-62", "properties": {"segment": "Enterprise", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000063"}}
+{"node_id": "CUST-000063", "node_type": "Customer", "label": "Customer-63", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000064"}}
+{"node_id": "CUST-000064", "node_type": "Customer", "label": "Customer-64", "properties": {"segment": "Enterprise", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000065"}}
+{"node_id": "CUST-000065", "node_type": "Customer", "label": "Customer-65", "properties": {"segment": "VIP", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000066"}}
+{"node_id": "CUST-000066", "node_type": "Customer", "label": "Customer-66", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000067"}}
+{"node_id": "CUST-000067", "node_type": "Customer", "label": "Customer-67", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000068"}}
+{"node_id": "CUST-000068", "node_type": "Customer", "label": "Customer-68", "properties": {"segment": "Retail", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000069"}}
+{"node_id": "CUST-000069", "node_type": "Customer", "label": "Customer-69", "properties": {"segment": "Enterprise", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000070"}}
+{"node_id": "CUST-000070", "node_type": "Customer", "label": "Customer-70", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000071"}}
+{"node_id": "CUST-000071", "node_type": "Customer", "label": "Customer-71", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000072"}}
+{"node_id": "CUST-000072", "node_type": "Customer", "label": "Customer-72", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000073"}}
+{"node_id": "CUST-000073", "node_type": "Customer", "label": "Customer-73", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000074"}}
+{"node_id": "CUST-000074", "node_type": "Customer", "label": "Customer-74", "properties": {"segment": "VIP", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000075"}}
+{"node_id": "CUST-000075", "node_type": "Customer", "label": "Customer-75", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000076"}}
+{"node_id": "CUST-000076", "node_type": "Customer", "label": "Customer-76", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000077"}}
+{"node_id": "CUST-000077", "node_type": "Customer", "label": "Customer-77", "properties": {"segment": "Enterprise", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000078"}}
+{"node_id": "CUST-000078", "node_type": "Customer", "label": "Customer-78", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000079"}}
+{"node_id": "CUST-000079", "node_type": "Customer", "label": "Customer-79", "properties": {"segment": "VIP", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000080"}}
+{"node_id": "CUST-000080", "node_type": "Customer", "label": "Customer-80", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000081"}}
+{"node_id": "CUST-000081", "node_type": "Customer", "label": "Customer-81", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000082"}}
+{"node_id": "CUST-000082", "node_type": "Customer", "label": "Customer-82", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000083"}}
+{"node_id": "CUST-000083", "node_type": "Customer", "label": "Customer-83", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000084"}}
+{"node_id": "CUST-000084", "node_type": "Customer", "label": "Customer-84", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000085"}}
+{"node_id": "CUST-000085", "node_type": "Customer", "label": "Customer-85", "properties": {"segment": "Enterprise", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000086"}}
+{"node_id": "CUST-000086", "node_type": "Customer", "label": "Customer-86", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000087"}}
+{"node_id": "CUST-000087", "node_type": "Customer", "label": "Customer-87", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000088"}}
+{"node_id": "CUST-000088", "node_type": "Customer", "label": "Customer-88", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000089"}}
+{"node_id": "CUST-000089", "node_type": "Customer", "label": "Customer-89", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000090"}}
+{"node_id": "CUST-000090", "node_type": "Customer", "label": "Customer-90", "properties": {"segment": "Enterprise", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000091"}}
+{"node_id": "CUST-000091", "node_type": "Customer", "label": "Customer-91", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000092"}}
+{"node_id": "CUST-000092", "node_type": "Customer", "label": "Customer-92", "properties": {"segment": "VIP", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000093"}}
+{"node_id": "CUST-000093", "node_type": "Customer", "label": "Customer-93", "properties": {"segment": "SME", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000094"}}
+{"node_id": "CUST-000094", "node_type": "Customer", "label": "Customer-94", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000095"}}
+{"node_id": "CUST-000095", "node_type": "Customer", "label": "Customer-95", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000096"}}
+{"node_id": "CUST-000096", "node_type": "Customer", "label": "Customer-96", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000097"}}
+{"node_id": "CUST-000097", "node_type": "Customer", "label": "Customer-97", "properties": {"segment": "Enterprise", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000098"}}
+{"node_id": "CUST-000098", "node_type": "Customer", "label": "Customer-98", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000099"}}
+{"node_id": "CUST-000099", "node_type": "Customer", "label": "Customer-99", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000100"}}
+{"node_id": "CUST-000100", "node_type": "Customer", "label": "Customer-100", "properties": {"segment": "Retail", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000101"}}
+{"node_id": "CUST-000101", "node_type": "Customer", "label": "Customer-101", "properties": {"segment": "Retail", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000102"}}
+{"node_id": "CUST-000102", "node_type": "Customer", "label": "Customer-102", "properties": {"segment": "SME", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000103"}}
+{"node_id": "CUST-000103", "node_type": "Customer", "label": "Customer-103", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000104"}}
+{"node_id": "CUST-000104", "node_type": "Customer", "label": "Customer-104", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000105"}}
+{"node_id": "CUST-000105", "node_type": "Customer", "label": "Customer-105", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000106"}}
+{"node_id": "CUST-000106", "node_type": "Customer", "label": "Customer-106", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000107"}}
+{"node_id": "CUST-000107", "node_type": "Customer", "label": "Customer-107", "properties": {"segment": "Enterprise", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000108"}}
+{"node_id": "CUST-000108", "node_type": "Customer", "label": "Customer-108", "properties": {"segment": "Enterprise", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000109"}}
+{"node_id": "CUST-000109", "node_type": "Customer", "label": "Customer-109", "properties": {"segment": "Retail", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000110"}}
+{"node_id": "CUST-000110", "node_type": "Customer", "label": "Customer-110", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000111"}}
+{"node_id": "CUST-000111", "node_type": "Customer", "label": "Customer-111", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000112"}}
+{"node_id": "CUST-000112", "node_type": "Customer", "label": "Customer-112", "properties": {"segment": "VIP", "country": "IT"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000113"}}
+{"node_id": "CUST-000113", "node_type": "Customer", "label": "Customer-113", "properties": {"segment": "SME", "country": "ES"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000114"}}
+{"node_id": "CUST-000114", "node_type": "Customer", "label": "Customer-114", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000115"}}
+{"node_id": "CUST-000115", "node_type": "Customer", "label": "Customer-115", "properties": {"segment": "VIP", "country": "CH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000116"}}
+{"node_id": "CUST-000116", "node_type": "Customer", "label": "Customer-116", "properties": {"segment": "Retail", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000117"}}
+{"node_id": "CUST-000117", "node_type": "Customer", "label": "Customer-117", "properties": {"segment": "SME", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000118"}}
+{"node_id": "CUST-000118", "node_type": "Customer", "label": "Customer-118", "properties": {"segment": "SME", "country": "DE"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CUST-000119"}}
+{"node_id": "CUST-000119", "node_type": "Customer", "label": "Customer-119", "properties": {"segment": "VIP", "country": "FR"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000001"}}
+{"node_id": "SUPP-000001", "node_type": "Supplier", "label": "Supplier-1", "properties": {"category": "IT_services", "risk_score": 0.44}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000002"}}
+{"node_id": "SUPP-000002", "node_type": "Supplier", "label": "Supplier-2", "properties": {"category": "pharma", "risk_score": 0.5}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000003"}}
+{"node_id": "SUPP-000003", "node_type": "Supplier", "label": "Supplier-3", "properties": {"category": "financial", "risk_score": 0.31}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000004"}}
+{"node_id": "SUPP-000004", "node_type": "Supplier", "label": "Supplier-4", "properties": {"category": "financial", "risk_score": 0.12}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000005"}}
+{"node_id": "SUPP-000005", "node_type": "Supplier", "label": "Supplier-5", "properties": {"category": "financial", "risk_score": 0.64}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000006"}}
+{"node_id": "SUPP-000006", "node_type": "Supplier", "label": "Supplier-6", "properties": {"category": "IT_services", "risk_score": 0.78}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000007"}}
+{"node_id": "SUPP-000007", "node_type": "Supplier", "label": "Supplier-7", "properties": {"category": "financial", "risk_score": 0.57}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000008"}}
+{"node_id": "SUPP-000008", "node_type": "Supplier", "label": "Supplier-8", "properties": {"category": "financial", "risk_score": 0.65}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000009"}}
+{"node_id": "SUPP-000009", "node_type": "Supplier", "label": "Supplier-9", "properties": {"category": "IT_services", "risk_score": 0.59}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "SUPP-000010"}}
+{"node_id": "SUPP-000010", "node_type": "Supplier", "label": "Supplier-10", "properties": {"category": "pharma", "risk_score": 0.65}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000001"}}
+{"node_id": "EMP-000001", "node_type": "Employee", "label": "Employee-1", "properties": {"department": "Sales", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000002"}}
+{"node_id": "EMP-000002", "node_type": "Employee", "label": "Employee-2", "properties": {"department": "Operations", "clearance_level": 2}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000003"}}
+{"node_id": "EMP-000003", "node_type": "Employee", "label": "Employee-3", "properties": {"department": "Legal", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000004"}}
+{"node_id": "EMP-000004", "node_type": "Employee", "label": "Employee-4", "properties": {"department": "Sales", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000005"}}
+{"node_id": "EMP-000005", "node_type": "Employee", "label": "Employee-5", "properties": {"department": "Finance", "clearance_level": 2}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000006"}}
+{"node_id": "EMP-000006", "node_type": "Employee", "label": "Employee-6", "properties": {"department": "Sales", "clearance_level": 2}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000007"}}
+{"node_id": "EMP-000007", "node_type": "Employee", "label": "Employee-7", "properties": {"department": "Legal", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000008"}}
+{"node_id": "EMP-000008", "node_type": "Employee", "label": "Employee-8", "properties": {"department": "Finance", "clearance_level": 2}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000009"}}
+{"node_id": "EMP-000009", "node_type": "Employee", "label": "Employee-9", "properties": {"department": "Finance", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000010"}}
+{"node_id": "EMP-000010", "node_type": "Employee", "label": "Employee-10", "properties": {"department": "Finance", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000011"}}
+{"node_id": "EMP-000011", "node_type": "Employee", "label": "Employee-11", "properties": {"department": "Sales", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000012"}}
+{"node_id": "EMP-000012", "node_type": "Employee", "label": "Employee-12", "properties": {"department": "IT", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000013"}}
+{"node_id": "EMP-000013", "node_type": "Employee", "label": "Employee-13", "properties": {"department": "Legal", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000014"}}
+{"node_id": "EMP-000014", "node_type": "Employee", "label": "Employee-14", "properties": {"department": "Finance", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000015"}}
+{"node_id": "EMP-000015", "node_type": "Employee", "label": "Employee-15", "properties": {"department": "Sales", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000016"}}
+{"node_id": "EMP-000016", "node_type": "Employee", "label": "Employee-16", "properties": {"department": "Legal", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000017"}}
+{"node_id": "EMP-000017", "node_type": "Employee", "label": "Employee-17", "properties": {"department": "Legal", "clearance_level": 2}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000018"}}
+{"node_id": "EMP-000018", "node_type": "Employee", "label": "Employee-18", "properties": {"department": "Sales", "clearance_level": 4}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000019"}}
+{"node_id": "EMP-000019", "node_type": "Employee", "label": "Employee-19", "properties": {"department": "Sales", "clearance_level": 1}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EMP-000020"}}
+{"node_id": "EMP-000020", "node_type": "Employee", "label": "Employee-20", "properties": {"department": "Sales", "clearance_level": 3}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "IP-TOR-001"}}
+{"node_id": "IP-TOR-001", "node_type": "IP_Address", "label": "185.220.101.47", "properties": {"is_tor": true, "risk": "HIGH"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "CC-STOLEN-001"}}
+{"node_id": "CC-STOLEN-001", "node_type": "CreditCard", "label": "****-****-****-4471", "properties": {"status": "STOLEN", "reported_date": "2024-03-15"}}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000000"}}
+{"edge_id": "EDGE-000000", "source_id": "EMP-000007", "target_id": "CUST-000016", "edge_type": "SUPPLIED_BY", "weight": 0.4, "since_date": "2024-10-28", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000001"}}
+{"edge_id": "EDGE-000001", "source_id": "EMP-000009", "target_id": "EMP-000012", "edge_type": "SHARES_IP", "weight": 0.996, "since_date": "2024-12-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000002"}}
+{"edge_id": "EDGE-000002", "source_id": "CUST-000028", "target_id": "EMP-000009", "edge_type": "SHARES_IP", "weight": 0.645, "since_date": "2024-01-31", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000003"}}
+{"edge_id": "EDGE-000003", "source_id": "EMP-000002", "target_id": "SUPP-000003", "edge_type": "SUPPLIED_BY", "weight": 0.65, "since_date": "2026-08-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000004"}}
+{"edge_id": "EDGE-000004", "source_id": "CUST-000075", "target_id": "SUPP-000009", "edge_type": "MANAGED_BY", "weight": 0.158, "since_date": "2024-12-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000005"}}
+{"edge_id": "EDGE-000005", "source_id": "CUST-000013", "target_id": "SUPP-000002", "edge_type": "LINKED_CARD", "weight": 0.249, "since_date": "2026-05-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000006"}}
+{"edge_id": "EDGE-000006", "source_id": "EMP-000019", "target_id": "EMP-000004", "edge_type": "SHARES_IP", "weight": 0.676, "since_date": "2024-09-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000007"}}
+{"edge_id": "EDGE-000007", "source_id": "CUST-000117", "target_id": "SUPP-000006", "edge_type": "SHARES_IP", "weight": 0.222, "since_date": "2025-09-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000008"}}
+{"edge_id": "EDGE-000008", "source_id": "EMP-000003", "target_id": "CUST-000069", "edge_type": "LINKED_CARD", "weight": 0.911, "since_date": "2024-05-29", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000009"}}
+{"edge_id": "EDGE-000009", "source_id": "EMP-000017", "target_id": "EMP-000014", "edge_type": "LINKED_CARD", "weight": 0.542, "since_date": "2026-02-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000010"}}
+{"edge_id": "EDGE-000010", "source_id": "EMP-000002", "target_id": "CUST-000098", "edge_type": "HAS_CONTRACT", "weight": 0.187, "since_date": "2025-09-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000011"}}
+{"edge_id": "EDGE-000011", "source_id": "EMP-000002", "target_id": "CUST-000060", "edge_type": "SHARES_IP", "weight": 0.527, "since_date": "2025-03-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000012"}}
+{"edge_id": "EDGE-000012", "source_id": "CUST-000015", "target_id": "EMP-000018", "edge_type": "USED_DEVICE", "weight": 0.708, "since_date": "2024-06-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000013"}}
+{"edge_id": "EDGE-000013", "source_id": "CUST-000037", "target_id": "CUST-000005", "edge_type": "SHARES_IP", "weight": 0.867, "since_date": "2026-08-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000014"}}
+{"edge_id": "EDGE-000014", "source_id": "CUST-000032", "target_id": "EMP-000007", "edge_type": "USED_DEVICE", "weight": 0.282, "since_date": "2025-05-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000015"}}
+{"edge_id": "EDGE-000015", "source_id": "EMP-000002", "target_id": "SUPP-000010", "edge_type": "SUPPLIED_BY", "weight": 0.859, "since_date": "2025-09-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000016"}}
+{"edge_id": "EDGE-000016", "source_id": "EMP-000016", "target_id": "CUST-000092", "edge_type": "SUPPLIED_BY", "weight": 0.307, "since_date": "2025-07-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000017"}}
+{"edge_id": "EDGE-000017", "source_id": "EMP-000001", "target_id": "CUST-000046", "edge_type": "HAS_CONTRACT", "weight": 0.411, "since_date": "2023-12-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000018"}}
+{"edge_id": "EDGE-000018", "source_id": "EMP-000020", "target_id": "SUPP-000008", "edge_type": "SUPPLIED_BY", "weight": 0.34, "since_date": "2026-03-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000019"}}
+{"edge_id": "EDGE-000019", "source_id": "EMP-000008", "target_id": "SUPP-000008", "edge_type": "HAS_CONTRACT", "weight": 0.644, "since_date": "2024-05-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000020"}}
+{"edge_id": "EDGE-000020", "source_id": "CUST-000001", "target_id": "SUPP-000009", "edge_type": "MANAGED_BY", "weight": 0.46, "since_date": "2026-07-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000021"}}
+{"edge_id": "EDGE-000021", "source_id": "EMP-000019", "target_id": "SUPP-000006", "edge_type": "HAS_CONTRACT", "weight": 0.119, "since_date": "2024-06-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000022"}}
+{"edge_id": "EDGE-000022", "source_id": "CUST-000006", "target_id": "SUPP-000009", "edge_type": "SHARES_IP", "weight": 0.629, "since_date": "2025-07-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000023"}}
+{"edge_id": "EDGE-000023", "source_id": "CUST-000114", "target_id": "CUST-000086", "edge_type": "SUPPLIED_BY", "weight": 0.559, "since_date": "2026-07-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000024"}}
+{"edge_id": "EDGE-000024", "source_id": "EMP-000003", "target_id": "CUST-000006", "edge_type": "SUPPLIED_BY", "weight": 0.517, "since_date": "2024-08-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000025"}}
+{"edge_id": "EDGE-000025", "source_id": "CUST-000092", "target_id": "SUPP-000005", "edge_type": "LINKED_CARD", "weight": 0.44, "since_date": "2026-02-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000026"}}
+{"edge_id": "EDGE-000026", "source_id": "CUST-000037", "target_id": "SUPP-000010", "edge_type": "USED_DEVICE", "weight": 0.605, "since_date": "2026-05-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000027"}}
+{"edge_id": "EDGE-000027", "source_id": "EMP-000014", "target_id": "CUST-000074", "edge_type": "USED_DEVICE", "weight": 0.239, "since_date": "2024-08-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000028"}}
+{"edge_id": "EDGE-000028", "source_id": "EMP-000013", "target_id": "SUPP-000005", "edge_type": "SHARES_IP", "weight": 0.317, "since_date": "2024-08-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000029"}}
+{"edge_id": "EDGE-000029", "source_id": "CUST-000075", "target_id": "CUST-000015", "edge_type": "USED_DEVICE", "weight": 0.651, "since_date": "2024-01-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000030"}}
+{"edge_id": "EDGE-000030", "source_id": "EMP-000019", "target_id": "CUST-000078", "edge_type": "HAS_CONTRACT", "weight": 0.251, "since_date": "2024-05-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000031"}}
+{"edge_id": "EDGE-000031", "source_id": "CUST-000076", "target_id": "EMP-000004", "edge_type": "SHARES_IP", "weight": 0.536, "since_date": "2024-05-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000032"}}
+{"edge_id": "EDGE-000032", "source_id": "EMP-000016", "target_id": "EMP-000010", "edge_type": "SHARES_IP", "weight": 0.265, "since_date": "2025-06-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000033"}}
+{"edge_id": "EDGE-000033", "source_id": "EMP-000016", "target_id": "CUST-000047", "edge_type": "MANAGED_BY", "weight": 0.82, "since_date": "2025-10-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000034"}}
+{"edge_id": "EDGE-000034", "source_id": "CUST-000050", "target_id": "SUPP-000010", "edge_type": "SUPPLIED_BY", "weight": 0.453, "since_date": "2024-04-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000035"}}
+{"edge_id": "EDGE-000035", "source_id": "CUST-000112", "target_id": "CUST-000084", "edge_type": "SHARES_IP", "weight": 0.776, "since_date": "2026-08-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000036"}}
+{"edge_id": "EDGE-000036", "source_id": "CUST-000033", "target_id": "EMP-000002", "edge_type": "SUPPLIED_BY", "weight": 0.745, "since_date": "2026-03-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000037"}}
+{"edge_id": "EDGE-000037", "source_id": "EMP-000009", "target_id": "CUST-000026", "edge_type": "USED_DEVICE", "weight": 0.659, "since_date": "2025-12-30", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000038"}}
+{"edge_id": "EDGE-000038", "source_id": "CUST-000117", "target_id": "SUPP-000008", "edge_type": "SHARES_IP", "weight": 0.425, "since_date": "2024-02-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000039"}}
+{"edge_id": "EDGE-000039", "source_id": "CUST-000018", "target_id": "CUST-000100", "edge_type": "MANAGED_BY", "weight": 0.675, "since_date": "2024-11-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000040"}}
+{"edge_id": "EDGE-000040", "source_id": "CUST-000069", "target_id": "SUPP-000001", "edge_type": "SUPPLIED_BY", "weight": 0.648, "since_date": "2024-08-03", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000041"}}
+{"edge_id": "EDGE-000041", "source_id": "CUST-000115", "target_id": "EMP-000002", "edge_type": "SHARES_IP", "weight": 0.922, "since_date": "2026-06-08", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000042"}}
+{"edge_id": "EDGE-000042", "source_id": "CUST-000033", "target_id": "SUPP-000009", "edge_type": "MANAGED_BY", "weight": 0.638, "since_date": "2024-03-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000043"}}
+{"edge_id": "EDGE-000043", "source_id": "EMP-000009", "target_id": "CUST-000047", "edge_type": "SHARES_IP", "weight": 0.302, "since_date": "2025-12-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000044"}}
+{"edge_id": "EDGE-000044", "source_id": "CUST-000077", "target_id": "EMP-000007", "edge_type": "MANAGED_BY", "weight": 0.779, "since_date": "2026-03-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000045"}}
+{"edge_id": "EDGE-000045", "source_id": "EMP-000006", "target_id": "EMP-000009", "edge_type": "USED_DEVICE", "weight": 0.134, "since_date": "2024-02-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000046"}}
+{"edge_id": "EDGE-000046", "source_id": "CUST-000034", "target_id": "SUPP-000004", "edge_type": "SUPPLIED_BY", "weight": 0.684, "since_date": "2024-10-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000047"}}
+{"edge_id": "EDGE-000047", "source_id": "CUST-000098", "target_id": "SUPP-000002", "edge_type": "SUPPLIED_BY", "weight": 0.776, "since_date": "2026-05-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000048"}}
+{"edge_id": "EDGE-000048", "source_id": "CUST-000027", "target_id": "EMP-000014", "edge_type": "MANAGED_BY", "weight": 0.921, "since_date": "2026-05-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000049"}}
+{"edge_id": "EDGE-000049", "source_id": "EMP-000011", "target_id": "SUPP-000004", "edge_type": "SHARES_IP", "weight": 0.698, "since_date": "2024-07-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000050"}}
+{"edge_id": "EDGE-000050", "source_id": "CUST-000072", "target_id": "CUST-000039", "edge_type": "LINKED_CARD", "weight": 0.7, "since_date": "2025-07-31", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000051"}}
+{"edge_id": "EDGE-000051", "source_id": "CUST-000033", "target_id": "CUST-000058", "edge_type": "USED_DEVICE", "weight": 0.562, "since_date": "2025-04-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000052"}}
+{"edge_id": "EDGE-000052", "source_id": "EMP-000011", "target_id": "CUST-000078", "edge_type": "LINKED_CARD", "weight": 0.678, "since_date": "2025-09-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000053"}}
+{"edge_id": "EDGE-000053", "source_id": "CUST-000073", "target_id": "SUPP-000004", "edge_type": "HAS_CONTRACT", "weight": 0.725, "since_date": "2024-04-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000054"}}
+{"edge_id": "EDGE-000054", "source_id": "EMP-000020", "target_id": "SUPP-000010", "edge_type": "MANAGED_BY", "weight": 0.633, "since_date": "2024-12-12", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000055"}}
+{"edge_id": "EDGE-000055", "source_id": "EMP-000018", "target_id": "EMP-000006", "edge_type": "MANAGED_BY", "weight": 0.266, "since_date": "2024-10-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000056"}}
+{"edge_id": "EDGE-000056", "source_id": "CUST-000093", "target_id": "CUST-000059", "edge_type": "SUPPLIED_BY", "weight": 0.365, "since_date": "2026-05-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000057"}}
+{"edge_id": "EDGE-000057", "source_id": "EMP-000016", "target_id": "SUPP-000006", "edge_type": "LINKED_CARD", "weight": 0.865, "since_date": "2025-06-12", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000058"}}
+{"edge_id": "EDGE-000058", "source_id": "EMP-000009", "target_id": "SUPP-000006", "edge_type": "USED_DEVICE", "weight": 0.264, "since_date": "2025-12-31", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000059"}}
+{"edge_id": "EDGE-000059", "source_id": "CUST-000118", "target_id": "SUPP-000004", "edge_type": "MANAGED_BY", "weight": 0.108, "since_date": "2025-11-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000060"}}
+{"edge_id": "EDGE-000060", "source_id": "EMP-000018", "target_id": "EMP-000008", "edge_type": "HAS_CONTRACT", "weight": 0.839, "since_date": "2026-05-31", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000061"}}
+{"edge_id": "EDGE-000061", "source_id": "EMP-000005", "target_id": "SUPP-000008", "edge_type": "SUPPLIED_BY", "weight": 0.705, "since_date": "2025-02-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000062"}}
+{"edge_id": "EDGE-000062", "source_id": "CUST-000067", "target_id": "EMP-000015", "edge_type": "SHARES_IP", "weight": 0.245, "since_date": "2026-03-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000063"}}
+{"edge_id": "EDGE-000063", "source_id": "EMP-000008", "target_id": "CUST-000071", "edge_type": "SUPPLIED_BY", "weight": 0.558, "since_date": "2024-07-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000064"}}
+{"edge_id": "EDGE-000064", "source_id": "EMP-000015", "target_id": "SUPP-000006", "edge_type": "MANAGED_BY", "weight": 0.806, "since_date": "2026-01-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000065"}}
+{"edge_id": "EDGE-000065", "source_id": "CUST-000004", "target_id": "CUST-000041", "edge_type": "SHARES_IP", "weight": 0.764, "since_date": "2024-10-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000066"}}
+{"edge_id": "EDGE-000066", "source_id": "CUST-000027", "target_id": "EMP-000017", "edge_type": "MANAGED_BY", "weight": 0.998, "since_date": "2024-07-18", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000067"}}
+{"edge_id": "EDGE-000067", "source_id": "CUST-000021", "target_id": "CUST-000022", "edge_type": "LINKED_CARD", "weight": 0.829, "since_date": "2024-12-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000068"}}
+{"edge_id": "EDGE-000068", "source_id": "EMP-000004", "target_id": "SUPP-000001", "edge_type": "SUPPLIED_BY", "weight": 0.348, "since_date": "2025-10-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000069"}}
+{"edge_id": "EDGE-000069", "source_id": "EMP-000019", "target_id": "SUPP-000010", "edge_type": "USED_DEVICE", "weight": 0.741, "since_date": "2024-04-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000070"}}
+{"edge_id": "EDGE-000070", "source_id": "EMP-000020", "target_id": "SUPP-000005", "edge_type": "MANAGED_BY", "weight": 0.924, "since_date": "2024-07-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000071"}}
+{"edge_id": "EDGE-000071", "source_id": "EMP-000001", "target_id": "CUST-000112", "edge_type": "SUPPLIED_BY", "weight": 0.27, "since_date": "2026-08-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000072"}}
+{"edge_id": "EDGE-000072", "source_id": "EMP-000008", "target_id": "SUPP-000009", "edge_type": "USED_DEVICE", "weight": 0.643, "since_date": "2026-01-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000073"}}
+{"edge_id": "EDGE-000073", "source_id": "EMP-000020", "target_id": "SUPP-000005", "edge_type": "MANAGED_BY", "weight": 0.307, "since_date": "2026-07-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000074"}}
+{"edge_id": "EDGE-000074", "source_id": "EMP-000016", "target_id": "EMP-000010", "edge_type": "USED_DEVICE", "weight": 0.259, "since_date": "2025-10-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000075"}}
+{"edge_id": "EDGE-000075", "source_id": "EMP-000015", "target_id": "SUPP-000005", "edge_type": "MANAGED_BY", "weight": 0.918, "since_date": "2024-10-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000076"}}
+{"edge_id": "EDGE-000076", "source_id": "EMP-000003", "target_id": "SUPP-000010", "edge_type": "SUPPLIED_BY", "weight": 0.446, "since_date": "2025-02-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000077"}}
+{"edge_id": "EDGE-000077", "source_id": "EMP-000017", "target_id": "SUPP-000008", "edge_type": "MANAGED_BY", "weight": 0.461, "since_date": "2024-01-30", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000078"}}
+{"edge_id": "EDGE-000078", "source_id": "EMP-000004", "target_id": "CUST-000011", "edge_type": "SUPPLIED_BY", "weight": 0.325, "since_date": "2026-08-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000079"}}
+{"edge_id": "EDGE-000079", "source_id": "CUST-000032", "target_id": "CUST-000110", "edge_type": "MANAGED_BY", "weight": 0.983, "since_date": "2026-02-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000080"}}
+{"edge_id": "EDGE-000080", "source_id": "CUST-000032", "target_id": "EMP-000006", "edge_type": "MANAGED_BY", "weight": 0.175, "since_date": "2025-03-30", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000081"}}
+{"edge_id": "EDGE-000081", "source_id": "EMP-000009", "target_id": "EMP-000002", "edge_type": "SUPPLIED_BY", "weight": 0.31, "since_date": "2026-05-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000082"}}
+{"edge_id": "EDGE-000082", "source_id": "CUST-000067", "target_id": "CUST-000094", "edge_type": "LINKED_CARD", "weight": 0.281, "since_date": "2025-11-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000083"}}
+{"edge_id": "EDGE-000083", "source_id": "CUST-000097", "target_id": "EMP-000005", "edge_type": "HAS_CONTRACT", "weight": 0.357, "since_date": "2025-11-29", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000084"}}
+{"edge_id": "EDGE-000084", "source_id": "CUST-000019", "target_id": "EMP-000006", "edge_type": "SHARES_IP", "weight": 0.231, "since_date": "2024-05-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000085"}}
+{"edge_id": "EDGE-000085", "source_id": "CUST-000059", "target_id": "SUPP-000002", "edge_type": "HAS_CONTRACT", "weight": 0.277, "since_date": "2025-07-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000086"}}
+{"edge_id": "EDGE-000086", "source_id": "CUST-000038", "target_id": "SUPP-000006", "edge_type": "HAS_CONTRACT", "weight": 0.966, "since_date": "2024-01-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000087"}}
+{"edge_id": "EDGE-000087", "source_id": "CUST-000033", "target_id": "CUST-000031", "edge_type": "SUPPLIED_BY", "weight": 0.596, "since_date": "2024-11-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000088"}}
+{"edge_id": "EDGE-000088", "source_id": "CUST-000025", "target_id": "EMP-000019", "edge_type": "USED_DEVICE", "weight": 0.717, "since_date": "2024-04-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000089"}}
+{"edge_id": "EDGE-000089", "source_id": "EMP-000008", "target_id": "EMP-000007", "edge_type": "USED_DEVICE", "weight": 0.517, "since_date": "2024-12-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000090"}}
+{"edge_id": "EDGE-000090", "source_id": "EMP-000002", "target_id": "SUPP-000008", "edge_type": "SUPPLIED_BY", "weight": 0.656, "since_date": "2023-12-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000091"}}
+{"edge_id": "EDGE-000091", "source_id": "CUST-000008", "target_id": "SUPP-000007", "edge_type": "USED_DEVICE", "weight": 0.543, "since_date": "2026-08-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000092"}}
+{"edge_id": "EDGE-000092", "source_id": "EMP-000018", "target_id": "CUST-000039", "edge_type": "LINKED_CARD", "weight": 0.698, "since_date": "2024-08-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000093"}}
+{"edge_id": "EDGE-000093", "source_id": "EMP-000017", "target_id": "SUPP-000010", "edge_type": "USED_DEVICE", "weight": 0.297, "since_date": "2025-04-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000094"}}
+{"edge_id": "EDGE-000094", "source_id": "EMP-000015", "target_id": "SUPP-000007", "edge_type": "SUPPLIED_BY", "weight": 0.422, "since_date": "2024-09-09", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000095"}}
+{"edge_id": "EDGE-000095", "source_id": "CUST-000067", "target_id": "CUST-000107", "edge_type": "SUPPLIED_BY", "weight": 0.336, "since_date": "2026-03-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000096"}}
+{"edge_id": "EDGE-000096", "source_id": "CUST-000113", "target_id": "CUST-000033", "edge_type": "MANAGED_BY", "weight": 0.259, "since_date": "2024-02-29", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000097"}}
+{"edge_id": "EDGE-000097", "source_id": "CUST-000078", "target_id": "SUPP-000010", "edge_type": "USED_DEVICE", "weight": 0.195, "since_date": "2026-04-08", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000098"}}
+{"edge_id": "EDGE-000098", "source_id": "CUST-000046", "target_id": "CUST-000098", "edge_type": "LINKED_CARD", "weight": 0.992, "since_date": "2025-03-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000099"}}
+{"edge_id": "EDGE-000099", "source_id": "CUST-000008", "target_id": "CUST-000058", "edge_type": "LINKED_CARD", "weight": 0.738, "since_date": "2026-05-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000100"}}
+{"edge_id": "EDGE-000100", "source_id": "CUST-000044", "target_id": "EMP-000009", "edge_type": "SUPPLIED_BY", "weight": 0.572, "since_date": "2025-05-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000101"}}
+{"edge_id": "EDGE-000101", "source_id": "EMP-000005", "target_id": "SUPP-000003", "edge_type": "HAS_CONTRACT", "weight": 0.446, "since_date": "2026-01-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000102"}}
+{"edge_id": "EDGE-000102", "source_id": "CUST-000084", "target_id": "CUST-000071", "edge_type": "USED_DEVICE", "weight": 0.891, "since_date": "2025-12-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000103"}}
+{"edge_id": "EDGE-000103", "source_id": "EMP-000016", "target_id": "CUST-000088", "edge_type": "LINKED_CARD", "weight": 0.797, "since_date": "2025-12-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000104"}}
+{"edge_id": "EDGE-000104", "source_id": "EMP-000019", "target_id": "CUST-000049", "edge_type": "SUPPLIED_BY", "weight": 0.222, "since_date": "2026-03-03", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000105"}}
+{"edge_id": "EDGE-000105", "source_id": "EMP-000007", "target_id": "CUST-000066", "edge_type": "USED_DEVICE", "weight": 0.594, "since_date": "2025-05-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000106"}}
+{"edge_id": "EDGE-000106", "source_id": "EMP-000010", "target_id": "CUST-000055", "edge_type": "HAS_CONTRACT", "weight": 0.25, "since_date": "2025-06-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000107"}}
+{"edge_id": "EDGE-000107", "source_id": "CUST-000051", "target_id": "SUPP-000001", "edge_type": "USED_DEVICE", "weight": 0.534, "since_date": "2024-05-28", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000108"}}
+{"edge_id": "EDGE-000108", "source_id": "CUST-000070", "target_id": "EMP-000011", "edge_type": "MANAGED_BY", "weight": 0.189, "since_date": "2024-07-09", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000109"}}
+{"edge_id": "EDGE-000109", "source_id": "EMP-000004", "target_id": "CUST-000035", "edge_type": "SUPPLIED_BY", "weight": 0.889, "since_date": "2025-05-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000110"}}
+{"edge_id": "EDGE-000110", "source_id": "EMP-000004", "target_id": "EMP-000015", "edge_type": "LINKED_CARD", "weight": 0.129, "since_date": "2024-11-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000111"}}
+{"edge_id": "EDGE-000111", "source_id": "EMP-000007", "target_id": "CUST-000092", "edge_type": "USED_DEVICE", "weight": 0.285, "since_date": "2025-03-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000112"}}
+{"edge_id": "EDGE-000112", "source_id": "EMP-000004", "target_id": "SUPP-000010", "edge_type": "SUPPLIED_BY", "weight": 0.275, "since_date": "2026-03-23", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000113"}}
+{"edge_id": "EDGE-000113", "source_id": "EMP-000017", "target_id": "SUPP-000003", "edge_type": "MANAGED_BY", "weight": 0.922, "since_date": "2024-05-31", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000114"}}
+{"edge_id": "EDGE-000114", "source_id": "EMP-000018", "target_id": "EMP-000005", "edge_type": "SHARES_IP", "weight": 0.828, "since_date": "2024-09-28", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000115"}}
+{"edge_id": "EDGE-000115", "source_id": "EMP-000020", "target_id": "CUST-000054", "edge_type": "USED_DEVICE", "weight": 0.714, "since_date": "2024-03-28", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000116"}}
+{"edge_id": "EDGE-000116", "source_id": "CUST-000008", "target_id": "SUPP-000002", "edge_type": "HAS_CONTRACT", "weight": 0.982, "since_date": "2024-05-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000117"}}
+{"edge_id": "EDGE-000117", "source_id": "CUST-000049", "target_id": "SUPP-000009", "edge_type": "HAS_CONTRACT", "weight": 0.256, "since_date": "2024-10-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000118"}}
+{"edge_id": "EDGE-000118", "source_id": "CUST-000093", "target_id": "SUPP-000005", "edge_type": "SUPPLIED_BY", "weight": 0.243, "since_date": "2024-05-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000119"}}
+{"edge_id": "EDGE-000119", "source_id": "CUST-000070", "target_id": "CUST-000054", "edge_type": "LINKED_CARD", "weight": 0.639, "since_date": "2024-06-18", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000120"}}
+{"edge_id": "EDGE-000120", "source_id": "CUST-000119", "target_id": "SUPP-000006", "edge_type": "HAS_CONTRACT", "weight": 0.375, "since_date": "2026-07-09", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000121"}}
+{"edge_id": "EDGE-000121", "source_id": "EMP-000002", "target_id": "EMP-000014", "edge_type": "HAS_CONTRACT", "weight": 0.431, "since_date": "2024-06-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000122"}}
+{"edge_id": "EDGE-000122", "source_id": "EMP-000020", "target_id": "CUST-000100", "edge_type": "USED_DEVICE", "weight": 0.271, "since_date": "2026-07-30", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000123"}}
+{"edge_id": "EDGE-000123", "source_id": "CUST-000068", "target_id": "SUPP-000005", "edge_type": "LINKED_CARD", "weight": 0.147, "since_date": "2025-09-08", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000124"}}
+{"edge_id": "EDGE-000124", "source_id": "CUST-000079", "target_id": "SUPP-000002", "edge_type": "MANAGED_BY", "weight": 0.408, "since_date": "2026-04-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000125"}}
+{"edge_id": "EDGE-000125", "source_id": "EMP-000005", "target_id": "SUPP-000007", "edge_type": "MANAGED_BY", "weight": 0.931, "since_date": "2024-10-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000126"}}
+{"edge_id": "EDGE-000126", "source_id": "EMP-000008", "target_id": "EMP-000019", "edge_type": "USED_DEVICE", "weight": 0.132, "since_date": "2023-12-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000127"}}
+{"edge_id": "EDGE-000127", "source_id": "CUST-000005", "target_id": "EMP-000009", "edge_type": "SUPPLIED_BY", "weight": 0.78, "since_date": "2026-04-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000128"}}
+{"edge_id": "EDGE-000128", "source_id": "CUST-000079", "target_id": "CUST-000036", "edge_type": "HAS_CONTRACT", "weight": 0.966, "since_date": "2025-08-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000129"}}
+{"edge_id": "EDGE-000129", "source_id": "EMP-000012", "target_id": "EMP-000003", "edge_type": "HAS_CONTRACT", "weight": 0.975, "since_date": "2025-02-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000130"}}
+{"edge_id": "EDGE-000130", "source_id": "EMP-000015", "target_id": "EMP-000013", "edge_type": "HAS_CONTRACT", "weight": 0.501, "since_date": "2025-01-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000131"}}
+{"edge_id": "EDGE-000131", "source_id": "CUST-000086", "target_id": "SUPP-000004", "edge_type": "MANAGED_BY", "weight": 0.682, "since_date": "2025-06-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000132"}}
+{"edge_id": "EDGE-000132", "source_id": "CUST-000063", "target_id": "CUST-000101", "edge_type": "SHARES_IP", "weight": 0.291, "since_date": "2026-07-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000133"}}
+{"edge_id": "EDGE-000133", "source_id": "CUST-000041", "target_id": "SUPP-000007", "edge_type": "SHARES_IP", "weight": 0.917, "since_date": "2024-09-09", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000134"}}
+{"edge_id": "EDGE-000134", "source_id": "CUST-000092", "target_id": "EMP-000004", "edge_type": "MANAGED_BY", "weight": 0.106, "since_date": "2024-02-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000135"}}
+{"edge_id": "EDGE-000135", "source_id": "EMP-000017", "target_id": "SUPP-000003", "edge_type": "LINKED_CARD", "weight": 0.564, "since_date": "2025-10-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000136"}}
+{"edge_id": "EDGE-000136", "source_id": "EMP-000019", "target_id": "EMP-000019", "edge_type": "MANAGED_BY", "weight": 0.32, "since_date": "2026-01-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000137"}}
+{"edge_id": "EDGE-000137", "source_id": "EMP-000011", "target_id": "EMP-000007", "edge_type": "SHARES_IP", "weight": 0.99, "since_date": "2025-05-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000138"}}
+{"edge_id": "EDGE-000138", "source_id": "EMP-000018", "target_id": "SUPP-000007", "edge_type": "SHARES_IP", "weight": 0.478, "since_date": "2024-06-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000139"}}
+{"edge_id": "EDGE-000139", "source_id": "CUST-000101", "target_id": "SUPP-000003", "edge_type": "USED_DEVICE", "weight": 0.966, "since_date": "2024-10-02", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000140"}}
+{"edge_id": "EDGE-000140", "source_id": "EMP-000007", "target_id": "SUPP-000002", "edge_type": "HAS_CONTRACT", "weight": 0.118, "since_date": "2025-01-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000141"}}
+{"edge_id": "EDGE-000141", "source_id": "CUST-000024", "target_id": "EMP-000018", "edge_type": "MANAGED_BY", "weight": 0.309, "since_date": "2025-12-11", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000142"}}
+{"edge_id": "EDGE-000142", "source_id": "EMP-000013", "target_id": "CUST-000103", "edge_type": "SUPPLIED_BY", "weight": 0.479, "since_date": "2025-04-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000143"}}
+{"edge_id": "EDGE-000143", "source_id": "CUST-000004", "target_id": "CUST-000117", "edge_type": "LINKED_CARD", "weight": 0.579, "since_date": "2025-08-29", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000144"}}
+{"edge_id": "EDGE-000144", "source_id": "CUST-000109", "target_id": "SUPP-000001", "edge_type": "USED_DEVICE", "weight": 0.145, "since_date": "2024-09-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000145"}}
+{"edge_id": "EDGE-000145", "source_id": "CUST-000045", "target_id": "CUST-000003", "edge_type": "MANAGED_BY", "weight": 0.772, "since_date": "2025-10-18", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000146"}}
+{"edge_id": "EDGE-000146", "source_id": "EMP-000005", "target_id": "SUPP-000008", "edge_type": "SHARES_IP", "weight": 0.882, "since_date": "2025-06-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000147"}}
+{"edge_id": "EDGE-000147", "source_id": "CUST-000001", "target_id": "EMP-000005", "edge_type": "MANAGED_BY", "weight": 0.123, "since_date": "2025-01-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000148"}}
+{"edge_id": "EDGE-000148", "source_id": "EMP-000007", "target_id": "CUST-000066", "edge_type": "MANAGED_BY", "weight": 0.691, "since_date": "2025-06-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000149"}}
+{"edge_id": "EDGE-000149", "source_id": "CUST-000023", "target_id": "CUST-000112", "edge_type": "LINKED_CARD", "weight": 0.791, "since_date": "2024-08-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000150"}}
+{"edge_id": "EDGE-000150", "source_id": "EMP-000007", "target_id": "CUST-000028", "edge_type": "MANAGED_BY", "weight": 0.122, "since_date": "2024-07-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000151"}}
+{"edge_id": "EDGE-000151", "source_id": "EMP-000004", "target_id": "CUST-000072", "edge_type": "HAS_CONTRACT", "weight": 0.494, "since_date": "2026-05-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000152"}}
+{"edge_id": "EDGE-000152", "source_id": "EMP-000009", "target_id": "SUPP-000004", "edge_type": "MANAGED_BY", "weight": 0.3, "since_date": "2026-02-04", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000153"}}
+{"edge_id": "EDGE-000153", "source_id": "CUST-000023", "target_id": "SUPP-000007", "edge_type": "USED_DEVICE", "weight": 0.985, "since_date": "2024-12-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000154"}}
+{"edge_id": "EDGE-000154", "source_id": "EMP-000020", "target_id": "EMP-000012", "edge_type": "SUPPLIED_BY", "weight": 0.816, "since_date": "2024-12-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000155"}}
+{"edge_id": "EDGE-000155", "source_id": "EMP-000002", "target_id": "CUST-000104", "edge_type": "SUPPLIED_BY", "weight": 0.39, "since_date": "2025-06-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000156"}}
+{"edge_id": "EDGE-000156", "source_id": "CUST-000021", "target_id": "CUST-000099", "edge_type": "HAS_CONTRACT", "weight": 0.416, "since_date": "2025-10-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000157"}}
+{"edge_id": "EDGE-000157", "source_id": "EMP-000008", "target_id": "EMP-000007", "edge_type": "LINKED_CARD", "weight": 0.439, "since_date": "2026-01-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000158"}}
+{"edge_id": "EDGE-000158", "source_id": "EMP-000001", "target_id": "CUST-000042", "edge_type": "SHARES_IP", "weight": 0.565, "since_date": "2024-04-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000159"}}
+{"edge_id": "EDGE-000159", "source_id": "EMP-000001", "target_id": "EMP-000017", "edge_type": "SHARES_IP", "weight": 0.588, "since_date": "2023-12-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000160"}}
+{"edge_id": "EDGE-000160", "source_id": "EMP-000017", "target_id": "CUST-000073", "edge_type": "USED_DEVICE", "weight": 0.779, "since_date": "2026-01-24", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000161"}}
+{"edge_id": "EDGE-000161", "source_id": "EMP-000009", "target_id": "CUST-000100", "edge_type": "HAS_CONTRACT", "weight": 0.824, "since_date": "2025-03-08", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000162"}}
+{"edge_id": "EDGE-000162", "source_id": "EMP-000012", "target_id": "EMP-000012", "edge_type": "LINKED_CARD", "weight": 0.232, "since_date": "2024-06-18", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000163"}}
+{"edge_id": "EDGE-000163", "source_id": "CUST-000106", "target_id": "SUPP-000010", "edge_type": "MANAGED_BY", "weight": 0.355, "since_date": "2026-07-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000164"}}
+{"edge_id": "EDGE-000164", "source_id": "EMP-000014", "target_id": "CUST-000049", "edge_type": "SHARES_IP", "weight": 0.788, "since_date": "2024-11-15", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000165"}}
+{"edge_id": "EDGE-000165", "source_id": "CUST-000100", "target_id": "EMP-000010", "edge_type": "SHARES_IP", "weight": 0.757, "since_date": "2024-04-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000166"}}
+{"edge_id": "EDGE-000166", "source_id": "CUST-000049", "target_id": "CUST-000091", "edge_type": "SUPPLIED_BY", "weight": 0.152, "since_date": "2025-10-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000167"}}
+{"edge_id": "EDGE-000167", "source_id": "EMP-000004", "target_id": "SUPP-000006", "edge_type": "HAS_CONTRACT", "weight": 0.62, "since_date": "2026-07-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000168"}}
+{"edge_id": "EDGE-000168", "source_id": "EMP-000009", "target_id": "CUST-000027", "edge_type": "SHARES_IP", "weight": 0.358, "since_date": "2025-09-10", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000169"}}
+{"edge_id": "EDGE-000169", "source_id": "CUST-000012", "target_id": "EMP-000006", "edge_type": "HAS_CONTRACT", "weight": 0.282, "since_date": "2026-06-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000170"}}
+{"edge_id": "EDGE-000170", "source_id": "EMP-000002", "target_id": "EMP-000018", "edge_type": "LINKED_CARD", "weight": 0.291, "since_date": "2026-06-18", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000171"}}
+{"edge_id": "EDGE-000171", "source_id": "CUST-000021", "target_id": "CUST-000073", "edge_type": "LINKED_CARD", "weight": 0.896, "since_date": "2024-02-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000172"}}
+{"edge_id": "EDGE-000172", "source_id": "EMP-000018", "target_id": "CUST-000102", "edge_type": "USED_DEVICE", "weight": 0.276, "since_date": "2025-01-26", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000173"}}
+{"edge_id": "EDGE-000173", "source_id": "EMP-000002", "target_id": "EMP-000009", "edge_type": "SUPPLIED_BY", "weight": 0.869, "since_date": "2026-01-05", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000174"}}
+{"edge_id": "EDGE-000174", "source_id": "EMP-000007", "target_id": "CUST-000021", "edge_type": "SUPPLIED_BY", "weight": 0.373, "since_date": "2024-05-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000175"}}
+{"edge_id": "EDGE-000175", "source_id": "CUST-000079", "target_id": "CUST-000005", "edge_type": "SHARES_IP", "weight": 0.679, "since_date": "2024-08-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000176"}}
+{"edge_id": "EDGE-000176", "source_id": "CUST-000024", "target_id": "CUST-000028", "edge_type": "HAS_CONTRACT", "weight": 0.972, "since_date": "2024-02-12", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000177"}}
+{"edge_id": "EDGE-000177", "source_id": "CUST-000065", "target_id": "CUST-000011", "edge_type": "SHARES_IP", "weight": 0.147, "since_date": "2024-11-29", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000178"}}
+{"edge_id": "EDGE-000178", "source_id": "EMP-000006", "target_id": "EMP-000011", "edge_type": "SUPPLIED_BY", "weight": 0.18, "since_date": "2024-01-07", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000179"}}
+{"edge_id": "EDGE-000179", "source_id": "EMP-000010", "target_id": "CUST-000015", "edge_type": "MANAGED_BY", "weight": 0.827, "since_date": "2025-03-06", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000180"}}
+{"edge_id": "EDGE-000180", "source_id": "EMP-000011", "target_id": "SUPP-000004", "edge_type": "HAS_CONTRACT", "weight": 0.761, "since_date": "2025-03-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000181"}}
+{"edge_id": "EDGE-000181", "source_id": "EMP-000018", "target_id": "SUPP-000007", "edge_type": "LINKED_CARD", "weight": 0.955, "since_date": "2024-09-25", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000182"}}
+{"edge_id": "EDGE-000182", "source_id": "EMP-000004", "target_id": "EMP-000009", "edge_type": "LINKED_CARD", "weight": 0.359, "since_date": "2025-08-12", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000183"}}
+{"edge_id": "EDGE-000183", "source_id": "CUST-000092", "target_id": "SUPP-000004", "edge_type": "USED_DEVICE", "weight": 0.987, "since_date": "2025-04-19", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000184"}}
+{"edge_id": "EDGE-000184", "source_id": "EMP-000020", "target_id": "EMP-000013", "edge_type": "SHARES_IP", "weight": 0.869, "since_date": "2026-04-28", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000185"}}
+{"edge_id": "EDGE-000185", "source_id": "EMP-000004", "target_id": "EMP-000001", "edge_type": "USED_DEVICE", "weight": 0.707, "since_date": "2024-10-01", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000186"}}
+{"edge_id": "EDGE-000186", "source_id": "CUST-000086", "target_id": "SUPP-000001", "edge_type": "USED_DEVICE", "weight": 0.17, "since_date": "2025-06-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000187"}}
+{"edge_id": "EDGE-000187", "source_id": "CUST-000052", "target_id": "CUST-000060", "edge_type": "SUPPLIED_BY", "weight": 0.801, "since_date": "2026-03-13", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000188"}}
+{"edge_id": "EDGE-000188", "source_id": "CUST-000114", "target_id": "EMP-000019", "edge_type": "MANAGED_BY", "weight": 0.87, "since_date": "2026-02-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000189"}}
+{"edge_id": "EDGE-000189", "source_id": "EMP-000007", "target_id": "SUPP-000009", "edge_type": "USED_DEVICE", "weight": 0.592, "since_date": "2024-03-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000190"}}
+{"edge_id": "EDGE-000190", "source_id": "CUST-000112", "target_id": "EMP-000010", "edge_type": "LINKED_CARD", "weight": 0.882, "since_date": "2024-11-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000191"}}
+{"edge_id": "EDGE-000191", "source_id": "EMP-000017", "target_id": "SUPP-000010", "edge_type": "LINKED_CARD", "weight": 0.773, "since_date": "2026-07-14", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000192"}}
+{"edge_id": "EDGE-000192", "source_id": "EMP-000016", "target_id": "CUST-000059", "edge_type": "SUPPLIED_BY", "weight": 0.694, "since_date": "2025-03-22", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000193"}}
+{"edge_id": "EDGE-000193", "source_id": "CUST-000053", "target_id": "EMP-000009", "edge_type": "SHARES_IP", "weight": 0.988, "since_date": "2026-05-01", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000194"}}
+{"edge_id": "EDGE-000194", "source_id": "EMP-000011", "target_id": "CUST-000051", "edge_type": "HAS_CONTRACT", "weight": 0.234, "since_date": "2024-04-21", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000195"}}
+{"edge_id": "EDGE-000195", "source_id": "CUST-000098", "target_id": "EMP-000012", "edge_type": "MANAGED_BY", "weight": 0.872, "since_date": "2024-08-20", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000196"}}
+{"edge_id": "EDGE-000196", "source_id": "EMP-000002", "target_id": "CUST-000112", "edge_type": "LINKED_CARD", "weight": 0.796, "since_date": "2026-07-17", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000197"}}
+{"edge_id": "EDGE-000197", "source_id": "CUST-000002", "target_id": "SUPP-000001", "edge_type": "SHARES_IP", "weight": 0.903, "since_date": "2026-08-09", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000198"}}
+{"edge_id": "EDGE-000198", "source_id": "EMP-000005", "target_id": "SUPP-000009", "edge_type": "SHARES_IP", "weight": 0.639, "since_date": "2024-11-27", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-000199"}}
+{"edge_id": "EDGE-000199", "source_id": "EMP-000019", "target_id": "SUPP-000008", "edge_type": "USED_DEVICE", "weight": 0.826, "since_date": "2025-09-16", "is_suspicious": false}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-FRAUD-CUST-000015"}}
+{"edge_id": "EDGE-FRAUD-CUST-000015", "source_id": "CUST-000015", "target_id": "SUPP-000003", "edge_type": "SUPPLIED_BY", "weight": 0.99, "since_date": "2024-01-10", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-IP-CUST-000015"}}
+{"edge_id": "EDGE-IP-CUST-000015", "source_id": "CUST-000015", "target_id": "IP-TOR-001", "edge_type": "SHARES_IP", "weight": 0.95, "since_date": "2024-02-01", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-CC-CUST-000015"}}
+{"edge_id": "EDGE-CC-CUST-000015", "source_id": "CUST-000015", "target_id": "CC-STOLEN-001", "edge_type": "LINKED_CARD", "weight": 0.9, "since_date": "2024-03-15", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-FRAUD-CUST-000033"}}
+{"edge_id": "EDGE-FRAUD-CUST-000033", "source_id": "CUST-000033", "target_id": "SUPP-000003", "edge_type": "SUPPLIED_BY", "weight": 0.99, "since_date": "2024-01-10", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-IP-CUST-000033"}}
+{"edge_id": "EDGE-IP-CUST-000033", "source_id": "CUST-000033", "target_id": "IP-TOR-001", "edge_type": "SHARES_IP", "weight": 0.95, "since_date": "2024-02-01", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-CC-CUST-000033"}}
+{"edge_id": "EDGE-CC-CUST-000033", "source_id": "CUST-000033", "target_id": "CC-STOLEN-001", "edge_type": "LINKED_CARD", "weight": 0.9, "since_date": "2024-03-15", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-FRAUD-CUST-000067"}}
+{"edge_id": "EDGE-FRAUD-CUST-000067", "source_id": "CUST-000067", "target_id": "SUPP-000003", "edge_type": "SUPPLIED_BY", "weight": 0.99, "since_date": "2024-01-10", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-IP-CUST-000067"}}
+{"edge_id": "EDGE-IP-CUST-000067", "source_id": "CUST-000067", "target_id": "IP-TOR-001", "edge_type": "SHARES_IP", "weight": 0.95, "since_date": "2024-02-01", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-CC-CUST-000067"}}
+{"edge_id": "EDGE-CC-CUST-000067", "source_id": "CUST-000067", "target_id": "CC-STOLEN-001", "edge_type": "LINKED_CARD", "weight": 0.9, "since_date": "2024-03-15", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-FRAUD-CUST-000089"}}
+{"edge_id": "EDGE-FRAUD-CUST-000089", "source_id": "CUST-000089", "target_id": "SUPP-000003", "edge_type": "SUPPLIED_BY", "weight": 0.99, "since_date": "2024-01-10", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-IP-CUST-000089"}}
+{"edge_id": "EDGE-IP-CUST-000089", "source_id": "CUST-000089", "target_id": "IP-TOR-001", "edge_type": "SHARES_IP", "weight": 0.95, "since_date": "2024-02-01", "is_suspicious": true}
+{"index": {"_index": "apex_knowledge_graph", "_id": "EDGE-CC-CUST-000089"}}
+{"edge_id": "EDGE-CC-CUST-000089", "source_id": "CUST-000089", "target_id": "CC-STOLEN-001", "edge_type": "LINKED_CARD", "weight": 0.9, "since_date": "2024-03-15", "is_suspicious": true}

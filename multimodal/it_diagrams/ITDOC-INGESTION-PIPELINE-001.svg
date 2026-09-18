@@ -1,0 +1,119 @@
+<svg viewBox="0 0 780 520" xmlns="http://www.w3.org/2000/svg" style="background:#fff;font-family:Inter,Arial,sans-serif">
+<defs><marker id="arr2" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#0B64DD"/></marker></defs>
+<rect x="0" y="0" width="780" height="38" fill="#101C3F"/>
+<text x="390" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Apex Data Ingestion Architecture — Sources to Elasticsearch</text>
+<!-- Source column -->
+<text x="80" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#0B64DD">DATA SOURCES</text>
+<!-- ApexPay -->
+<rect x="15" y="72" width="130" height="38" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="87" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">ApexPay API</text>
+<text x="80" y="101" text-anchor="middle" font-size="8" fill="#555">REST POST · real-time</text>
+<!-- IoT MQTT -->
+<rect x="15" y="122" width="130" height="38" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="137" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">IoT MQTT Sensors</text>
+<text x="80" y="151" text-anchor="middle" font-size="8" fill="#555">847 assets · every 6h</text>
+<!-- CRM/Chat/Email -->
+<rect x="15" y="172" width="130" height="38" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="187" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">CRM / Chat / Email</text>
+<text x="80" y="201" text-anchor="middle" font-size="8" fill="#555">Webhooks + batch</text>
+<!-- ServiceNow / Confluence -->
+<rect x="15" y="222" width="130" height="38" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="237" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">ServiceNow</text>
+<text x="80" y="251" text-anchor="middle" font-size="8" fill="#555">Confluence · SharePoint</text>
+<!-- Pharma LIMS -->
+<rect x="15" y="272" width="130" height="38" rx="5" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="287" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">Pharma LIMS</text>
+<text x="80" y="301" text-anchor="middle" font-size="8" fill="#555">Batch QC results · PDF</text>
+<!-- Arrows to Kafka -->
+<line x1="145" y1="91" x2="220" y2="91" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="145" y1="141" x2="220" y2="141" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="145" y1="191" x2="220" y2="191" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="145" y1="241" x2="220" y2="241" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="145" y1="291" x2="220" y2="291" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#arr2)"/>
+<!-- Kafka column -->
+<rect x="220" y="62" width="140" height="285" rx="8" fill="#FFF8E1" stroke="#FEC514" stroke-width="2"/>
+<text x="290" y="82" text-anchor="middle" font-size="11" font-weight="bold" fill="#B8860B">Apache Kafka</text>
+<text x="290" y="96" text-anchor="middle" font-size="8" fill="#555">3 brokers · RF=3</text>
+<rect x="232" y="108" width="116" height="22" rx="3" fill="white" stroke="#FEC514" stroke-width="1"/>
+<text x="290" y="123" text-anchor="middle" font-size="8" fill="#B8860B">apex.transactions.raw</text>
+<rect x="232" y="140" width="116" height="22" rx="3" fill="white" stroke="#FEC514" stroke-width="1"/>
+<text x="290" y="155" text-anchor="middle" font-size="8" fill="#B8860B">apex.iot.telemetry.raw</text>
+<rect x="232" y="172" width="116" height="22" rx="3" fill="white" stroke="#FEC514" stroke-width="1"/>
+<text x="290" y="187" text-anchor="middle" font-size="8" fill="#B8860B">apex.interactions.raw</text>
+<rect x="232" y="204" width="116" height="22" rx="3" fill="white" stroke="#FEC514" stroke-width="1"/>
+<text x="290" y="219" text-anchor="middle" font-size="8" fill="#B8860B">apex.itknowledge.raw</text>
+<rect x="232" y="236" width="116" height="22" rx="3" fill="white" stroke="#FEC514" stroke-width="1"/>
+<text x="290" y="251" text-anchor="middle" font-size="8" fill="#B8860B">apex.pharma.raw</text>
+<text x="290" y="330" text-anchor="middle" font-size="8" fill="#888">Peak: 800 events/sec</text>
+<!-- Arrows to Logstash -->
+<line x1="360" y1="91" x2="420" y2="91" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="360" y1="141" x2="420" y2="141" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="360" y1="191" x2="420" y2="191" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="360" y1="241" x2="420" y2="241" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="360" y1="291" x2="420" y2="291" stroke="#FEC514" stroke-width="1.5" marker-end="url(#arr2)"/>
+<!-- Logstash column -->
+<rect x="420" y="62" width="150" height="285" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="2"/>
+<text x="495" y="82" text-anchor="middle" font-size="11" font-weight="bold" fill="#0F6E56">Logstash Pipelines</text>
+<rect x="432" y="95" width="126" height="38" rx="3" fill="white" stroke="#0F6E56" stroke-width="1"/>
+<text x="495" y="110" text-anchor="middle" font-size="8" font-weight="bold" fill="#0F6E56">TXN-PIPELINE-01</text>
+<text x="495" y="123" text-anchor="middle" font-size="8" fill="#555">GeoIP · AFDS score · PAN mask</text>
+<rect x="432" y="143" width="126" height="38" rx="3" fill="white" stroke="#0F6E56" stroke-width="1"/>
+<text x="495" y="158" text-anchor="middle" font-size="8" font-weight="bold" fill="#0F6E56">IOT-PIPELINE-01</text>
+<text x="495" y="171" text-anchor="middle" font-size="8" fill="#555">Schema validate · FFT features</text>
+<rect x="432" y="191" width="126" height="38" rx="3" fill="white" stroke="#0F6E56" stroke-width="1"/>
+<text x="495" y="206" text-anchor="middle" font-size="8" font-weight="bold" fill="#0F6E56">INT-PIPELINE-01</text>
+<text x="495" y="219" text-anchor="middle" font-size="8" fill="#555">Sentiment · NER · PII redact</text>
+<rect x="432" y="239" width="126" height="38" rx="3" fill="white" stroke="#0F6E56" stroke-width="1"/>
+<text x="495" y="254" text-anchor="middle" font-size="8" font-weight="bold" fill="#0F6E56">IT-KB-PIPELINE-01</text>
+<text x="495" y="267" text-anchor="middle" font-size="8" fill="#555">HTML strip · chunk 512t · embed</text>
+<rect x="432" y="287" width="126" height="38" rx="3" fill="white" stroke="#0F6E56" stroke-width="1"/>
+<text x="495" y="302" text-anchor="middle" font-size="8" font-weight="bold" fill="#0F6E56">PHARMA-PIPELINE-01</text>
+<text x="495" y="315" text-anchor="middle" font-size="8" fill="#555">QC validate · image ref · SPC</text>
+<!-- Arrows to ES -->
+<line x1="570" y1="91" x2="620" y2="91" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="570" y1="141" x2="620" y2="141" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="570" y1="191" x2="620" y2="191" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="570" y1="241" x2="620" y2="241" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr2)"/>
+<line x1="570" y1="291" x2="620" y2="291" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arr2)"/>
+<!-- ES Indices column -->
+<rect x="620" y="62" width="145" height="285" rx="8" fill="#E8F0FE" stroke="#0B64DD" stroke-width="2"/>
+<text x="693" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#0B64DD">Elasticsearch Indices</text>
+<text x="693" y="97" text-anchor="middle" font-size="8" fill="#555">es-prod · ECK 2.9</text>
+<rect x="630" y="104" width="125" height="18" rx="3" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="693" y="116" text-anchor="middle" font-size="8" fill="#0B64DD">apex_financial_transactions</text>
+<rect x="630" y="130" width="125" height="18" rx="3" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="693" y="142" text-anchor="middle" font-size="8" fill="#0B64DD">apex_operational_telemetry</text>
+<rect x="630" y="156" width="125" height="18" rx="3" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="693" y="168" text-anchor="middle" font-size="8" fill="#0B64DD">apex_customer_interactions</text>
+<rect x="630" y="182" width="125" height="18" rx="3" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="693" y="194" text-anchor="middle" font-size="8" fill="#0B64DD">apex_it_knowledge_base</text>
+<rect x="630" y="208" width="125" height="18" rx="3" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="693" y="220" text-anchor="middle" font-size="8" fill="#0B64DD">apex_pharma_batches</text>
+<rect x="630" y="234" width="125" height="18" rx="3" fill="white" stroke="#48EFCF" stroke-width="1"/>
+<text x="693" y="246" text-anchor="middle" font-size="8" fill="#0B64DD">apex_customer_360</text>
+<rect x="630" y="260" width="125" height="18" rx="3" fill="white" stroke="#48EFCF" stroke-width="1"/>
+<text x="693" y="272" text-anchor="middle" font-size="8" fill="#0B64DD">apex_knowledge_graph</text>
+<rect x="630" y="286" width="125" height="18" rx="3" fill="white" stroke="#48EFCF" stroke-width="1"/>
+<text x="693" y="298" text-anchor="middle" font-size="8" fill="#0B64DD">apex_multimodal_assets</text>
+<text x="693" y="328" text-anchor="middle" font-size="8" fill="#888">9 indices · 9,100+ docs</text>
+<!-- Stats bar -->
+<rect x="10" y="370" width="760" height="135" rx="6" fill="#F5F7FA" stroke="#ddd" stroke-width="1"/>
+<text x="390" y="388" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Ingestion Performance Statistics</text>
+<rect x="25" y="398" width="170" height="50" rx="4" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="110" y="416" text-anchor="middle" font-size="18" font-weight="bold" fill="#0B64DD">812</text>
+<text x="110" y="432" text-anchor="middle" font-size="9" fill="#555">events/sec peak throughput</text>
+<text x="110" y="443" text-anchor="middle" font-size="8" fill="#888">Fri 17:00-19:00 CET</text>
+<rect x="210" y="398" width="170" height="50" rx="4" fill="white" stroke="#0B64DD" stroke-width="1"/>
+<text x="295" y="416" text-anchor="middle" font-size="18" font-weight="bold" fill="#0B64DD">210ms</text>
+<text x="295" y="432" text-anchor="middle" font-size="9" fill="#555">transaction indexed P99</text>
+<text x="295" y="443" text-anchor="middle" font-size="8" fill="#888">SLA target: 500ms</text>
+<rect x="395" y="398" width="170" height="50" rx="4" fill="white" stroke="#48EFCF" stroke-width="1"/>
+<text x="480" y="416" text-anchor="middle" font-size="18" font-weight="bold" fill="#0B64DD">2.4M</text>
+<text x="480" y="432" text-anchor="middle" font-size="9" fill="#555">events indexed per day</text>
+<text x="480" y="443" text-anchor="middle" font-size="8" fill="#888">all pipelines combined</text>
+<rect x="580" y="398" width="170" height="50" rx="4" fill="white" stroke="#48EFCF" stroke-width="1"/>
+<text x="665" y="416" text-anchor="middle" font-size="18" font-weight="bold" fill="#0B64DD">3</text>
+<text x="665" y="432" text-anchor="middle" font-size="9" fill="#555">Logstash nodes (active)</text>
+<text x="665" y="443" text-anchor="middle" font-size="8" fill="#888">8 vCPU · 32 GB each</text>
+<text x="390" y="492" text-anchor="middle" font-size="9" fill="#888">DLQ monitoring: alert if depth &gt; 1000 events · Kafka retention: 7-14 days per topic · At-least-once delivery guaranteed</text>
+</svg>

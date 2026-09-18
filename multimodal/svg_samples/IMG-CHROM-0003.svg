@@ -1,0 +1,32 @@
+<svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" style="background:#fff">
+  <text x="300" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">HPLC Chromatogram - BATCH-000003</text>
+  <text x="300" y="42" text-anchor="middle" font-size="10" fill="#666">✓ WITHIN SPECIFICATION</text>
+  <line x1="50" y1="290" x2="580" y2="290" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="60" x2="50" y2="290" stroke="#333" stroke-width="2"/>
+  <text x="310" y="320" text-anchor="middle" font-size="11" fill="#555">Retention Time (min)</text>
+  <line x1="50" y1="290" x2="50" y2="295" stroke="#333"/>
+  <text x="50" y="308" text-anchor="middle" font-size="9" fill="#666">0</text>
+  <line x1="109" y1="290" x2="109" y2="295" stroke="#333"/>
+  <text x="109" y="308" text-anchor="middle" font-size="9" fill="#666">2</text>
+  <line x1="168" y1="290" x2="168" y2="295" stroke="#333"/>
+  <text x="168" y="308" text-anchor="middle" font-size="9" fill="#666">4</text>
+  <line x1="227" y1="290" x2="227" y2="295" stroke="#333"/>
+  <text x="227" y="308" text-anchor="middle" font-size="9" fill="#666">6</text>
+  <line x1="286" y1="290" x2="286" y2="295" stroke="#333"/>
+  <text x="286" y="308" text-anchor="middle" font-size="9" fill="#666">8</text>
+  <line x1="344" y1="290" x2="344" y2="295" stroke="#333"/>
+  <text x="344" y="308" text-anchor="middle" font-size="9" fill="#666">10</text>
+  <line x1="403" y1="290" x2="403" y2="295" stroke="#333"/>
+  <text x="403" y="308" text-anchor="middle" font-size="9" fill="#666">12</text>
+  <line x1="462" y1="290" x2="462" y2="295" stroke="#333"/>
+  <text x="462" y="308" text-anchor="middle" font-size="9" fill="#666">14</text>
+  <line x1="521" y1="290" x2="521" y2="295" stroke="#333"/>
+  <text x="521" y="308" text-anchor="middle" font-size="9" fill="#666">16</text>
+  <path d="M 50 290 L 50.0 290.1 L 60.6 292.0 L 71.2 289.5 L 81.8 291.2 L 92.4 291.2 L 103.0 288.6 L 113.6 288.9 L 124.2 292.2 L 134.8 292.8 L 145.4 289.4 L 156.0 291.6 L 166.6 290.5 L 177.2 291.9 L 187.8 289.6 L 198.4 290.8 L 209.0 294.2 L 219.6 288.2 L 230.2 291.0 L 240.8 290.0 L 251.4 287.9 L 262.0 286.2 L 272.6 184.7 L 283.2 159.0 L 293.8 65.0 L 304.4 65.0 L 315.0 68.9 L 325.6 248.3 L 336.2 281.5 L 346.8 284.0 L 357.4 289.3 L 368.0 289.6 L 378.6 290.0 L 389.2 290.4 L 399.8 287.9 L 410.4 292.4 L 421.0 291.4 L 431.6 291.1 L 442.2 291.2 L 452.8 288.0 L 463.4 285.3 L 474.0 287.8 L 484.6 284.9 L 495.2 288.5 L 505.8 288.1 L 516.4 289.0 L 527.0 290.8 L 537.6 290.4 L 548.2 287.2 L 558.8 286.6 L 569.4 289.5 L 580.0 290.7 L 580 290 Z" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5" fill-opacity="0.4"/>
+  <line x1="300" y1="65" x2="300" y2="50" stroke="#0B64DD" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="300" y="50" text-anchor="middle" font-size="9" fill="#0B64DD" font-weight="bold">API</text>
+  <text x="300" y="60" text-anchor="middle" font-size="8" fill="#888">RT=8.5</text>
+  <line x1="477" y1="274" x2="477" y2="259" stroke="#FFA500" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="477" y="256" text-anchor="middle" font-size="9" fill="#FFA500" font-weight="bold">Imp-1</text>
+  <text x="477" y="266" text-anchor="middle" font-size="8" fill="#888">RT=14.5</text>
+</svg>

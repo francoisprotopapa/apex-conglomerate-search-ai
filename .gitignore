@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyo
+.env
+venv/
+.venv/
+
+# Secrets — never commit credentials
+.env
+*.env
+config.local.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large generated files
+*.zip
+*.tar.gz

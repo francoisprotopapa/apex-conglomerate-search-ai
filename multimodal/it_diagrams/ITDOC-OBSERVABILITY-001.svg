@@ -1,0 +1,101 @@
+<svg viewBox="0 0 780 480" xmlns="http://www.w3.org/2000/svg" style="background:#fff;font-family:Inter,Arial,sans-serif">
+<defs><marker id="a" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#0B64DD"/></marker></defs>
+<rect x="0" y="0" width="780" height="36" fill="#153385"/>
+<text x="390" y="23" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Apex Platform Observability Stack — Metrics, Logs, Traces</text>
+<!-- Data sources column -->
+<text x="80" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#0B64DD">DATA SOURCES</text>
+<rect x="15" y="65" width="130" height="28" rx="4" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="83" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">ES Cluster (all nodes)</text>
+<rect x="15" y="103" width="130" height="28" rx="4" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="121" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Kafka Brokers (3x)</text>
+<rect x="15" y="141" width="130" height="28" rx="4" fill="#E8F0FE" stroke="#0B64DD" stroke-width="1.5"/>
+<text x="80" y="159" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Logstash Nodes (3x)</text>
+<rect x="15" y="179" width="130" height="28" rx="4" fill="#FBEAF0" stroke="#F04E98" stroke-width="1.5"/>
+<text x="80" y="197" text-anchor="middle" font-size="9" font-weight="bold" fill="#F04E98">GPU ML Nodes (DCGM)</text>
+<rect x="15" y="217" width="130" height="28" rx="4" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="80" y="235" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">AFDS Python Service</text>
+<rect x="15" y="255" width="130" height="28" rx="4" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+<text x="80" y="273" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">K8s kube-state-metrics</text>
+<rect x="15" y="293" width="130" height="28" rx="4" fill="#FFF8E1" stroke="#FEC514" stroke-width="1.5"/>
+<text x="80" y="311" text-anchor="middle" font-size="9" font-weight="bold" fill="#B8860B">Node Exporters (all)</text>
+<rect x="15" y="331" width="130" height="28" rx="4" fill="#F5F7FA" stroke="#888" stroke-width="1.5"/>
+<text x="80" y="349" text-anchor="middle" font-size="9" font-weight="bold" fill="#555">Azure AD Sign-in logs</text>
+<!-- Arrows to collection layer -->
+<line x1="145" y1="79" x2="225" y2="140" stroke="#0B64DD" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="117" x2="225" y2="155" stroke="#0B64DD" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="155" x2="225" y2="170" stroke="#0B64DD" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="193" x2="225" y2="190" stroke="#F04E98" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="231" x2="225" y2="215" stroke="#0F6E56" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="269" x2="225" y2="240" stroke="#0F6E56" stroke-width="1" marker-end="url(#a)"/>
+<line x1="145" y1="307" x2="225" y2="280" stroke="#FEC514" stroke-width="1" marker-end="url(#a)"/>
+<!-- Collection layer -->
+<rect x="220" y="70" width="160" height="310" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="300" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">COLLECTION LAYER</text>
+<rect x="232" y="100" width="136" height="36" rx="4" fill="white" stroke="#0B64DD"/>
+<text x="300" y="116" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Prometheus 2.47</text>
+<text x="300" y="130" text-anchor="middle" font-size="8" fill="#555">Scrape: 15s · Port 9090</text>
+<rect x="232" y="148" width="136" height="36" rx="4" fill="white" stroke="#F04E98"/>
+<text x="300" y="164" text-anchor="middle" font-size="9" font-weight="bold" fill="#F04E98">Elastic Agent</text>
+<text x="300" y="178" text-anchor="middle" font-size="8" fill="#555">DaemonSet · Filebeat mode</text>
+<rect x="232" y="196" width="136" height="36" rx="4" fill="white" stroke="#0F6E56"/>
+<text x="300" y="212" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">Elastic APM Agent</text>
+<text x="300" y="226" text-anchor="middle" font-size="8" fill="#555">AFDS + Logstash traces</text>
+<rect x="232" y="244" width="136" height="36" rx="4" fill="white" stroke="#FEC514"/>
+<text x="300" y="260" text-anchor="middle" font-size="9" font-weight="bold" fill="#B8860B">Alertmanager</text>
+<text x="300" y="274" text-anchor="middle" font-size="8" fill="#555">Routes: PagerDuty · Teams</text>
+<rect x="232" y="292" width="136" height="36" rx="4" fill="white" stroke="#888"/>
+<text x="300" y="308" text-anchor="middle" font-size="9" font-weight="bold" fill="#555">Logstash ES Audit Fwd</text>
+<text x="300" y="322" text-anchor="middle" font-size="8" fill="#555">Audit logs → es-siem</text>
+<!-- Arrows to storage -->
+<line x1="380" y1="118" x2="430" y2="118" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="380" y1="166" x2="430" y2="200" stroke="#F04E98" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="380" y1="214" x2="430" y2="250" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="380" y1="310" x2="430" y2="320" stroke="#888" stroke-width="1.5" marker-end="url(#a)"/>
+<!-- Storage layer -->
+<rect x="430" y="70" width="160" height="310" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="510" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">STORAGE LAYER</text>
+<rect x="442" y="100" width="136" height="40" rx="4" fill="white" stroke="#0B64DD"/>
+<text x="510" y="118" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Prometheus TSDB</text>
+<text x="510" y="132" text-anchor="middle" font-size="8" fill="#555">Metrics · 90d retention</text>
+<rect x="442" y="152" width="136" height="40" rx="4" fill="white" stroke="#F04E98"/>
+<text x="510" y="170" text-anchor="middle" font-size="9" font-weight="bold" fill="#F04E98">es-monitoring</text>
+<text x="510" y="184" text-anchor="middle" font-size="8" fill="#555">Logs · 90d retention</text>
+<rect x="442" y="204" width="136" height="40" rx="4" fill="white" stroke="#0F6E56"/>
+<text x="510" y="222" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">Elastic APM</text>
+<text x="510" y="236" text-anchor="middle" font-size="8" fill="#555">Traces · 30d retention</text>
+<rect x="442" y="256" width="136" height="40" rx="4" fill="white" stroke="#888"/>
+<text x="510" y="274" text-anchor="middle" font-size="9" font-weight="bold" fill="#555">es-siem (Security)</text>
+<text x="510" y="288" text-anchor="middle" font-size="8" fill="#555">Audit logs · 1yr retention</text>
+<rect x="442" y="308" width="136" height="40" rx="4" fill="white" stroke="#FEC514"/>
+<text x="510" y="326" text-anchor="middle" font-size="9" font-weight="bold" fill="#B8860B">MinIO S3</text>
+<text x="510" y="340" text-anchor="middle" font-size="8" fill="#555">3yr long-term archive</text>
+<!-- Arrows to visualization -->
+<line x1="590" y1="118" x2="630" y2="150" stroke="#0B64DD" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="590" y1="172" x2="630" y2="215" stroke="#F04E98" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="590" y1="224" x2="630" y2="260" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="590" y1="274" x2="630" y2="305" stroke="#888" stroke-width="1.5" marker-end="url(#a)"/>
+<!-- Visualization layer -->
+<rect x="628" y="70" width="140" height="310" rx="8" fill="#F5F7FA" stroke="#0B64DD" stroke-width="2"/>
+<text x="698" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#0B64DD">VISUALIZATION</text>
+<rect x="640" y="100" width="116" height="60" rx="4" fill="white" stroke="#0B64DD"/>
+<text x="698" y="120" text-anchor="middle" font-size="9" font-weight="bold" fill="#0B64DD">Grafana</text>
+<text x="698" y="135" text-anchor="middle" font-size="8" fill="#555">Prometheus metrics</text>
+<text x="698" y="148" text-anchor="middle" font-size="8" fill="#555">18 dashboards · SSO</text>
+<rect x="640" y="172" width="116" height="60" rx="4" fill="white" stroke="#F04E98"/>
+<text x="698" y="192" text-anchor="middle" font-size="9" font-weight="bold" fill="#F04E98">Kibana (main)</text>
+<text x="698" y="207" text-anchor="middle" font-size="8" fill="#555">Logs · Discover</text>
+<text x="698" y="220" text-anchor="middle" font-size="8" fill="#555">AFDS Analytics</text>
+<rect x="640" y="244" width="116" height="60" rx="4" fill="white" stroke="#0F6E56"/>
+<text x="698" y="264" text-anchor="middle" font-size="9" font-weight="bold" fill="#0F6E56">Kibana APM UI</text>
+<text x="698" y="279" text-anchor="middle" font-size="8" fill="#555">Distributed traces</text>
+<text x="698" y="292" text-anchor="middle" font-size="8" fill="#555">AFDS P99 end-to-end</text>
+<rect x="640" y="316" width="116" height="44" rx="4" fill="white" stroke="#888"/>
+<text x="698" y="336" text-anchor="middle" font-size="9" font-weight="bold" fill="#555">Elastic Security</text>
+<text x="698" y="350" text-anchor="middle" font-size="8" fill="#555">SIEM · 847 rules</text>
+<!-- Alert path -->
+<rect x="220" y="400" width="540" height="65" rx="6" fill="#FFF8E1" stroke="#FEC514" stroke-width="2"/>
+<text x="490" y="418" text-anchor="middle" font-size="10" font-weight="bold" fill="#B8860B">Alerting Flow</text>
+<text x="240" y="435" font-size="8" fill="#555">P1/P2: Prometheus → Alertmanager → PagerDuty (24/7 on-call) → MTTR target: 30min</text>
+<text x="240" y="450" font-size="8" fill="#555">P3: Prometheus → Teams #platform-alerts (business hours) → JIRA auto-ticket → Review next working day</text>
+<text x="240" y="463" font-size="8" fill="#888">Custom alert examples: ESClusterRed (P1, &lt;2min) · JVMHeapCritical >88% (P2) · GPUMemoryHigh >85% (P3) · CCRLag >300s (P2)</text>
+</svg>
