@@ -88,7 +88,7 @@ cd import_scripts
 python3 import_apex.py
 ```
 
-The script will:
+If you get stucked with the import of the data, have a look at import_script, the script will:
 1. Install missing Python dependencies automatically
 2. Create all indices with the provided mappings
 3. Import all documents
